@@ -13,10 +13,7 @@ toc:
     path: connected-trade-platform
     label: IBM Connected Trade Platform helps power the digitization of trade and
       supply chain financing
-    description: 128 characters or less. The description should expand upon the
-      name, but don't add extra marketese words that inflate the length. Focus
-      on keywords that users would be skimming and/or searching for, including
-      any key IBM branded terms covered in the white paper.
+    description: The IBM Connected Trade Platform de-risks Trade Finance transformation by simplifying consumption of fintech applications
     authors:
       - name: Varun Ojha
         title: STSM, Chief Architect, IBM Connected Trade Platform
