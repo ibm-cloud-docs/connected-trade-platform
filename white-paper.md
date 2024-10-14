@@ -23,8 +23,8 @@ This white paper starts with an overview of the trade finance industry, its mark
 
 
 
-## Executive Summary
-{: #executive-summary}
+## Trade Finance Overview
+{: #trade-finance-overview}
 
 Trade Finance represents financial products and services that facilitate domestic and international trade activities between buyers and sellers aiming to mitigate performance and payment risks while improving cash flows. This is a global industry with a diverse ecosystem of participants such as:
 
@@ -55,7 +55,7 @@ The global trade finance market size was evaluated at $10.52 trillion in 2023 an
 
 ### Key Takeaways
 {: #key-takeaways}
-{: #subheading}
+
 
 - Trade Finance supports 80% of global trade
 - Trade Finance revenues of $6.6B for top 10 Banks
@@ -98,7 +98,7 @@ These are just a few of the many key factors we see driving transformational cha
 
 ### Transitioning from a fragmented to a data-driven supply chain
 {: #data-driven-supply-chain}
-{: #subheading}
+
 
 In the past, we have traditionally seen manual, paper-intensive trade processes that have the potential to generate large amounts of data. However, this data can often become trapped in silos and cause complexities, resulting in delays and increased costs. With the increasing demands of global trade, organizations are starting to embrace digitization, standardization and collaboration to accelerate time to value and reduce costs.
 
@@ -130,7 +130,7 @@ At IBM, we believe it’s critical that this industry-specific platform is optim
 
 ### Logical Architecture
 {: #logical-architecture}
-{: #subheading}
+
 
 The Figure below depicts the logical architecture of the IBM connected trade platform
 
@@ -138,23 +138,23 @@ The Figure below depicts the logical architecture of the IBM connected trade pla
 
 #### Conceptual Elements
 {: #logical-architecture-conceptual-elements}
-{: #subheading}
+
 
 ##### IBM Hybrid Cloud
 {: #logical-architecture-ibm-hybrid-cloud}
-{: #subheading}
+
 
 The platform is built on top of IBM’s hybrid cloud. IBM cloud offers 246+ public cloud solutions as services or software. IBM cloud is designed keeping in mind the most regulated of industries and is differentiated in its performance, resiliency, security and TCO. IBM cloud is available in 10 multi zone regions (30 data centers) across the world (Americas, Europe, APAC) along with 29 single data centers.
 
 ##### Network Layer
 {: #logical-architecture-network-layer}
-{: #subheading}
+
 
 The network utilizes the virtual private cloud design, which as the name suggests is a virtual network that is logically isolated from other IBM cloud tenants. VPC lets you create a fully customizable, software-defined virtual network with superior isolation. IBM Cloud Virtual Private Cloud provides custom network topologies, flexible subnet sizes, and enhanced security. Hybrid network connectivity with bank systems can be achieved using VPN and direct link connect and direct link dedicated offerings.
 
 ##### Storage Layer
 {: #logical-architecture-storage-layer}
-{: #subheading}
+
 
 The storage layer provides multiple options to choose from.
 
@@ -169,7 +169,7 @@ Get local disk performance with SAN persistence and durability. Increase storage
 
 ##### Compute
 {: #logical-architecture-compute}
-{: #subheading}
+
 
 Choose from a host of compute options
 
@@ -184,13 +184,13 @@ For high density workloads we offer Power virtual servers, which are based on th
 
 ##### RedHat OpenShift
 {: #logical-architecture-RedHat-OpenShift}
-{: #subheading}
+
 
 Red Hat OpenShift is the leading hybrid cloud application platform, bringing together a comprehensive set of tools and services that streamline the entire application lifecycle, from development to delivery to management of app workloads. IBM connected trade platform utilizes OpenShift for container orchestration and application delivery
 
 ##### IBM Cloud Pak for Data
 {: #logical-architecture-ibm-cloud-pak-data}
-{: #subheading}
+
 
 Its a new kind of data and analytics platform with built-in governance. It simplifies and unifies how clients collect, organize, and analyze data to accelerate the value of data science and AI. This hybrid cloud data platform delivers a broad range of core data microservices, with the option to add more from a growing services catalog. The platform helps the client experience with greater flexibility, security, control, and the benefits of the cloud without having to move data. 
 
@@ -200,7 +200,7 @@ Cloud Pak for Data includes industry-leading data fabric technologies for data g
 
 ##### Watsonx
 {: #logical-architecture-watsonx}
-{: #subheading}
+
 
 Watsonx is an AI and data platform designed to scale and accelerate the impact of AI by infusing intelligence into business operations. The watsonx platform is designed with the three most important components of an effective AI strategy: an AI studio, data, and governance. 
 
@@ -215,7 +215,7 @@ Watsonx is an AI and data platform designed to scale and accelerate the impact o
 
 #### IBM Cloud Framework for Financial Services
 {: #logical-architecture-fscloud}
-{: #subheading}
+
 
 IBM Connected trade platform is operated to the industry-informed IBM Cloud Framework for Financial Services.  The Framework is a standard set of controls, architectures and deployment patterns informed by global regulatory requirements for cybersecurity, data security and risk management.  The Framework is also informed by an industry council and IBM Promontory to ensure currency with new and changed regulations. 
 The security controls are divided into 7 focus areas, which are then subdivided into 21 control families, eventually leading to 565 granular security controls. The control requirements were initially based on NIST 800-53 Rev 4 and have been enhanced based on feedback from leading industry partners.
@@ -229,7 +229,7 @@ All key software, services and fintech apps are validated to the IBM cloud frame
 
 #### Independent Software Vendors
 {: #logical-architecture-isvs}
-{: #subheading}
+
 
 IBM connected trade platform supplements its trade finance functional capabilities by working with leading ISVs in the trade finance space. 
 
@@ -243,7 +243,7 @@ ISVs are onboarded onto the platform through a step by step onboarding process. 
 
 #### Connected Trade Gateway
 {: #logical-architecture-connected-trade-gateway}
-{: #subheading}
+
 
 IBM's connected trade gateway can be used to quickly setup the integrations amongst the platform solution components, ISV apps and the bank's enterprise systems to connect different aspects of the E2E trade finance solution together.
 
@@ -256,7 +256,7 @@ IBM connected trade gateway is built on top of IBM's industry leading automated,
 
 #### Security and Compliance Center
 {: #logical-architecture-scc}
-{: #subheading}
+
 
 IBM Security and Compliance Center (SCC) is an integrated solutions suite to define policy as code, implement controls for secure data and workload deployments, and assess security and compliance posture, across hybrid multicloud environments.
 
@@ -266,19 +266,19 @@ IBM connected trade platform leverages SCC for continuous compliance and ongoing
 
 #### Databases
 {: #logical-architecture-databases}
-{: #subheading}
+
 
 The platform offers comprehensive list of DBaaS offerings across RDMS and NoSQL databases such as DB2, Postgres, enterprise DB, MySQL, MongoDB, Cloudant, Cassandra etc
 
 #### Observability
 {: #logical-architecture-observability}
-{: #subheading}
+
 
 The platform offers extensive observability capabilities through its cloud activity tracker, cloud logs and cloud monitoring services in addition to IBM Instana Observability platform
 
 #### Key Management
 {: #logical-architecture-key-management}
-{: #subheading}
+
 
 **KYOK (Keep your own key):**
 
@@ -300,7 +300,7 @@ IBM Key Protect for IBM Cloud is a shared multi-tenant key management service th
 
 ### Deployment Architecture
 {: #Deployment-architecture}
-{: #subheading}
+
 
 Figure below depicts a high level reference deployment architecture. 
 
@@ -318,21 +318,21 @@ A VPC gives an enterprise the ability to define and control a virtual network th
 
 #### Management VPC
 {: #Deployment-architecture-management-vpc}
-{: #subheading}
+
 
 The management VPC provides compute, storage, and network services to enable application provider administrators to monitor, operate, and maintain the environment. The intent is to completely isolate management operations from the VPC running consumer workloads.
 The management VPC is distributed across three zones in one multizone region (MZR). Each zone contains two subnets that are protected by different ACLs.
 
 ##### Subnets for management tools
 {: #Deployment-architecture-mvpc-subnets}
-{: #subheading}
+
 
 The top subnet in each zone is part of the default security group for the VPC. And, each of those subnets contains an arbitrary number of virtual server instances and or RedHat OpenShift workers that use Block Storage for VPC. These instances are where your management tools run.
 The lower subnets in the diagram relate to inbound connectivity, and we'll cover more about that in the next sections.
 
 ##### Connectivity inbound to VPC
 {: #Deployment-architecture-mvpc-inbound-connectivity}
-{: #subheading}
+
 
 Connectivity from your application provider's enterprise environment to the management VPC is accomplished by using IBM Cloud Direct Link or IBM Cloud Virtual Private Network (VPN) for VPC. 
 
@@ -345,36 +345,36 @@ Regardless of whether you are using Direct Link or VPN for VPC to connect to the
 
 #### Connectivity between VPCs
 {: #Deployment-architecture-vpc-connectivity}
-{: #subheading}
+
 
 The management VPC needs to connect to the workload VPC to deploy, configure, and operate the components and workloads that are found in the workload VPC. Transit Gateway is designed specifically for this purpose, and is the means for connecting your management VPC to your workload VPC.
 
 #### Workload VPC
 {: #Deployment-architecture-workload-vpc}
-{: #subheading}
+
 
 The workload VPC provides compute, storage, and network services to support hosted applications and operations that deliver services to the consumer. Let's take a closer look at the components within the VPC.
 
 ##### Regions and zones
 {: #Deployment-architecture-wvpc-zones}
-{: #subheading}
+
 
 Just like the management VPC, the workload VPC is spread across three zones. The workload VPC should be created in the same MZR as the management VPC.
 
 ##### Connectivity to workload VPC
 {: #Deployment-architecture-wvpc-connectivity}
-{: #subheading}
+
 
 If the consumer is in the same organization as the application provider, then just like for the management VPC, Direct Link can provide access to the workload VPC. Alternatively, VPN for VPC can be used for site-to-site VPN connectivity.
 
 
 #### Storage and encryption
 {: #Deployment-architecture-storage-encryption}
-{: #subheading}
+
 
 ##### Block Storage for VPC
 {: #Deployment-architecture-block-storage-vpc}
-{: #subheading}
+
 
 Block Storage for VPC is automatically created for the primary book volume when you create a virtual server. You can also create more data volumes by using Block Storage for VPC within any subnet.
 By default, all boot and data volumes are encrypted at rest with IBM-managed encryption. There is no additional cost for this service. IBM-managed encryption uses the following industry standard protocols:
@@ -384,21 +384,21 @@ For all sensitive and consumer-owned data, the application provider should use c
 
 ##### Object Storage
 {: #Deployment-architecture-object-storage-vpc}
-{: #subheading}
+
 
 Object Storage is an alternative storage option that is useful for certain use cases, including backup and recovery, data archiving, cloud-native application building, and AI and big data analytics. Object Storage stores encrypted and dispersed data across multiple geographic locations.
 By default, all objects that are stored in Object Storage are encrypted by using randomly generated keys and an all-or-nothing-transform (AONT). While this default encryption model provides at-rest security, financial service workloads need full control over the data encryption keys used. Again, Hyper Protect Crypto Services should be used for this purpose.
 
 #### Using IBM Cloud services outside of a VPC
 {: #Deployment-architecture-external-service-access}
-{: #subheading}
+
 
 With IBM Cloud Virtual Private Endpoint (VPE) for VPC you can connect to supported IBM Cloud services from your VPC network by using the IP addresses of your choosing, which is allocated from a subnet within your VPC. In the reference architecture diagram, VPEs appear in the middle subnets of the workload VPC.
 VPE is an evolution of the private connectivity to IBM Cloud services. VPEs are virtual IP interfaces that are bound to an endpoint gateway created on a per service, or service instance, basis (depending on the service operation model). The endpoint gateway is a virtualized function that scales horizontally, is redundant and highly available, and spans all availability zones of your VPC. Endpoint gateways enable communications from virtual server instances within your VPC and IBM Cloud service on the private backbone. VPE for VPC gives you the experience of controlling all the private addressing within your cloud.
 
 #### Variation with edge/transit VPC for public internet access
 {: #Deployment-architecture-edge-transit-vpc}
-{: #subheading}
+
 
 You might want to allow consumers to access your service through the public internet. This base architecture can be adapted to securely enable this type of access via a new edge VPC. The request from the consumer gets routed through a global load balancer, through a web application firewall in the edge VPC, and then to the public application load balancer within the workload VPC.
 
