@@ -18,19 +18,21 @@ keywords: trade finance connected trade platform ibm cloud fintech
 {: #title}
 {: #white-paper}
 
-This white paper starts with an overview of the trade finance industry, its market potential and the challenges that it is currently plagued by. The white paper then introduces IBM's proposed solution to alleviate aforementioned challenges and how the solution can accelerate the modernization and digitization of the trade finance industry
+This white paper starts with an overview of the trade finance industry, its market potential and current challenges. The white paper then introduces IBM's proposed solution to address those challenges and how the solution can accelerate the modernization and digitization of the trade finance industry
 {: shortdesc}
+
 
 
 
 ## Trade Finance Overview
 {: #trade-finance-overview}
 
-Trade Finance represents financial products and services that facilitate domestic and international trade activities between buyers and sellers aiming to mitigate performance and payment risks while improving cash flows. This is a global industry with a diverse ecosystem of participants such as:
+Trade finance represents financial products and services that facilitate domestic and international trade activities between buyers and sellers aiming to mitigate performance and payment risks while improving cash flows. This is a global industry with a diverse ecosystem of participants such as:
 
 - Buyers
 - Suppliers
-- Logistics and Financial Providers
+- Logistics firms
+- Financial service providers
 - Government Entities dealing with tax collection, border security and regulatory aspects
 - International organizations such as
     - WCO
@@ -41,9 +43,7 @@ The diagram below captures the trade finance ecosystem participants
 
 ![Trade Finance Ecosystem Participants.](images/EcosystemParticipants.drawio.svg "Trade Finance Ecosystem Participants"){: caption="Trade Finance Ecosystem Participants" caption-side="bottom"}
 
-A trade transaction requires a seller of goods and services as well as a buyer. Various intermediaries such as banks and financial institutions can facilitate these transactions by financing the trade. Trade finance manifests itself in the form of letters of credit (LOC), guarantees, or insurance, and is usually provided by intermediaries
-
-But this is a very fragmented and distributed ecosystem where technology adoption has been lagging in comparison with other industries.
+A trade transaction requires a seller of goods and services as well as a buyer. Various intermediaries such as banks and other financial institutions can facilitate these transactions by financing the trade. There is a diverse set of products being offered to serve the needs of the counter-parties in the transaction in the form of letters of credit (LOC), guarantees, or insurance. However, due to the very fragmented and distributed nature of the trade ecosystem technology adoption has been lagging in comparison with other industries.
 
 ## Trade Finance Market
 {: #trade-finance-market}
@@ -73,14 +73,14 @@ When examining these disruptors more closely, it’s clear there are a wide vari
 
 Lets take a deeper look at some of the friction points
 
-- Setup And Documentation
+- Setup and Documentation
     - Unpredictable mix of manual and machine documents 
     - Varying documents and formats 
     - Exception processing is labor-driven
 - Credit Analysis
     - Errors due to manual workflow data completeness, and data inaccuracy
     - Due to above, bank foregoes funding credit-worthy suppliers 
-- Commercial & compliance checks
+- Commercial and compliance checks
     - Research and verification of documents is time-consuming 
     - Forgery and fraud risks are difficult to eliminate 
 
@@ -90,7 +90,7 @@ Lets take a deeper look at some of the friction points
 - Fulfillment
     - Manual processes and fragmented systems increase time, coordination, and cost in releasing funds 
     
-- Post-fulfilLment
+- Post-fulfillment
     - Lack of data to support regulatory reporting, tracking, discrepancy analysis 
 
 
@@ -109,7 +109,7 @@ With these capabilities, a single source of truth can then be established across
 ## Proposed Solution: IBM Connected Trade Platform
 {: #proposed-solution-ctp}
 
-Digitization—along with standardization and collaboration within the industry—can help create a variety of benefits. For example, banks gain real-time visibility into their respective supply chains, eliminate paper-based processes and associated manual labor, improve speed to working capital optimization, enhance cash-flow forecasting accuracy, safeguard transactions against cybersecurity risk, enable greater supply chain resiliency and unlock wider procure-to-pay benefits.
+Digitization, along with standardization and collaboration within the industry can help create a variety of benefits. For example, banks gain real-time visibility into their respective supply chains, eliminate paper-based processes and associated manual labor, improve speed to working capital optimization, enhance cash-flow forecasting accuracy, safeguard transactions against cybersecurity risk, enable greater supply chain resiliency and unlock wider procure-to-pay benefits.
 
 At IBM, we recognize that this transformation will require adopting a platform strategy that lifts the supporting ecosystem, and we aim to deliver this using next-generation ‘as a Service’ business models.
 
@@ -304,7 +304,7 @@ IBM Key Protect for IBM Cloud is a shared multi-tenant key management service th
 
 Figure below depicts a high level reference deployment architecture. 
 
-IBM cloud accounts can be leveraged for isolation of all cloud resources, administration and billing. This deployment model is flexible and can be tailored to the customer's needs. For e.g if the customer wants to consume this platform purely as SaaS then the underlying deployment complexity can be abstracted out and managed and maintained by IBM. On the other hand if the customer wants more visibility and control over the deployment and corresponding billing and administration then we can provision the necessary resources within the customer's cloud account.
+IBM cloud accounts can be leveraged for isolation of all cloud resources, administration and billing. This deployment model is flexible and can be tailored to the customer's needs. For example, if the customer wants to consume this platform purely as SaaS then the underlying deployment complexity can be abstracted out and managed and maintained by IBM. On the other hand, if the customer wants more visibility and control over the deployment and corresponding billing and administration then we can provision the necessary resources within the customer's cloud account.
 
 ![High Level Deployment Architecture](images/CTPHighLevelDeploymentArchitecture.drawio.svg "High Level Deployment Architecture"){: caption="High Level Deployment Architecture" caption-side="bottom"}
 
