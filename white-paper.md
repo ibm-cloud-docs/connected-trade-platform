@@ -140,19 +140,23 @@ The Figure below depicts the logical architecture of the IBM connected trade pla
 {: #logical-architecture-conceptual-elements}
 
 
-##### [IBM Hybrid Cloud](https://cloud.ibm.com/)
+##### IBM Hybrid Cloud
 {: #logical-architecture-ibm-hybrid-cloud}
 
 
 The platform is built on top of IBM’s hybrid cloud. IBM cloud offers 246+ public cloud solutions as services or software. IBM cloud is designed keeping in mind the most regulated of industries and is differentiated in its performance, resiliency, security and TCO. IBM cloud is available in 10 multi zone regions (30 data centers) across the world (Americas, Europe, APAC) along with 29 single data centers.
 
-##### [Network Layer](https://cloud.ibm.com/docs/vpc/getting-started.html)
+Learn more here [IBM Hybrid Cloud](https://cloud.ibm.com/)
+
+##### Network Layer
 {: #logical-architecture-network-layer}
 
 
 The network utilizes the virtual private cloud design, which as the name suggests is a virtual network that is logically isolated from other IBM cloud tenants. VPC lets you create a fully customizable, software-defined virtual network with superior isolation. IBM Cloud Virtual Private Cloud provides custom network topologies, flexible subnet sizes, and enhanced security. Hybrid network connectivity with bank systems can be achieved using VPN and direct link connect and direct link dedicated offerings.
 
-##### [Storage Layer](https://cloud.ibm.com/docs/vpc?topic=vpc-storage-overview)
+Learn more here [Network Layer](https://cloud.ibm.com/docs/vpc/getting-started.html)
+
+##### Storage Layer
 {: #logical-architecture-storage-layer}
 
 
@@ -166,6 +170,8 @@ IBM Cloud Object Storage is a highly scalable cloud storage service, designed fo
 
 **Block Storage:**
 Get local disk performance with SAN persistence and durability. Increase storage capacity available to your IBM Cloud Virtual Servers with a maximum of 48k IOPS. Deploy flash-backed block storage volumes from 20GB to 16TB–and customize it all with a variety of capabilities
+
+Learn more here [Storage Layer](https://cloud.ibm.com/docs/vpc?topic=vpc-storage-overview)
 
 ##### Compute
 {: #logical-architecture-compute}
@@ -182,13 +188,15 @@ When you provision an instance, you select a profile that matches the amount of 
 [**Power Virtual Servers:**](https://cloud.ibm.com/power/overview)
 For high density workloads we offer Power virtual servers, which are based on the IBM Power processor technology that offers significant performance improvement over x86
 
-##### [RedHat OpenShift](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started)
+##### RedHat Openshift
 {: #logical-architecture-RedHat-OpenShift}
 
 
-Red Hat OpenShift is the leading hybrid cloud application platform, bringing together a comprehensive set of tools and services that streamline the entire application lifecycle, from development to delivery to management of app workloads. IBM connected trade platform utilizes OpenShift for container orchestration and application delivery
+Red Hat OpenShift is the leading hybrid cloud application platform, bringing together a comprehensive set of tools and services that streamline the entire application lifecycle, from development to delivery to management of app workloads. IBM connected trade platform utilizes OpenShift for container orchestration and application delivery.
 
-##### [IBM Cloud Pak for Data](https://cloud.ibm.com/cloudpaks/data/overview)
+Learn more here [RedHat OpenShift](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started)
+
+##### IBM Cloud Pak For Data
 {: #logical-architecture-ibm-cloud-pak-data}
 
 
@@ -198,7 +206,9 @@ IBM Cloud Pak for Data is a pre-assembled data fabric architecture that can be s
 
 Cloud Pak for Data includes industry-leading data fabric technologies for data governance, data virtualization, and data science; all of which are designed to support self-service data exploration and consumption, which is the ultimate objective of a data fabric architecture
 
-##### [Watsonx](https://cloud.ibm.com/watsonx/overview)
+Learn more here [IBM Cloud Pak for Data](https://cloud.ibm.com/cloudpaks/data/overview)
+
+##### Watsonx
 {: #logical-architecture-watsonx}
 
 
@@ -212,8 +222,10 @@ Watsonx is an AI and data platform designed to scale and accelerate the impact o
 
 - **AI assistants** – Pre-built applications powered by watsonx. Clients can deploy watsonx AI assistants to do work without expert knowledge across a variety of business processes and applications, including automating customer service, document digitization and processing, generating code, and automating key workflows in departments such as human resources (HR).
 
+Learn more here [Watsonx](https://cloud.ibm.com/watsonx/overview)
 
-#### [IBM Cloud Framework for Financial Services](https://cloud.ibm.com/docs/framework-financial-services?topic=framework-financial-services-about)
+
+#### IBM Cloud Framework for Financial Services
 {: #logical-architecture-fscloud}
 
 
@@ -226,6 +238,8 @@ All key software, services and fintech apps are validated to the IBM cloud frame
 - Physically secure infrastructure
 - Regulatory compliant environment for their data and applications
 - Ongoing monitoring and reporting
+
+Learn more here [IBM Cloud Framework for Financial Services](https://cloud.ibm.com/docs/framework-financial-services?topic=framework-financial-services-about)
 
 #### Independent Software Vendors
 {: #logical-architecture-isvs}
@@ -254,7 +268,7 @@ IBM connected trade gateway is built on top of IBM's industry leading automated,
 - High speed data transfer system for transferring files and data sets of any size quickly, reliably, and securely
 - An application gateway for adding security, control, integration, and optimized access to your workload
 
-#### [Security and Compliance Center](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started)
+#### Security and Compliance Center
 {: #logical-architecture-scc}
 
 
@@ -264,19 +278,25 @@ Cloud-Native Application Protection Platforms (CNAPP) drive the modernization of
 
 IBM connected trade platform leverages SCC for continuous compliance and ongoing monitoring of all its components
 
-#### [Databases](https://cloud.ibm.com/catalog?category=databases)
+Learn more here [Security and Compliance Center](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started)
+
+#### Databases
 {: #logical-architecture-databases}
 
 
 The platform offers comprehensive list of DBaaS offerings across RDMS and NoSQL databases such as DB2, Postgres, enterprise DB, MySQL, MongoDB, Cloudant, Cassandra etc
 
-#### [Observability](https://cloud.ibm.com/docs/observability-hub)
+Learn more here [Databases](https://cloud.ibm.com/catalog?category=databases)
+
+#### Observability
 {: #logical-architecture-observability}
 
 
 The platform offers extensive observability capabilities through its cloud activity tracker, cloud logs and cloud monitoring services in addition to IBM Instana Observability platform
 
-#### [Key Management](https://cloud.ibm.com/docs/hs-crypto?topic=hs-crypto-get-started)
+Learn more here [Observability](https://cloud.ibm.com/docs/observability-hub)
+
+#### Key Management
 {: #logical-architecture-key-management}
 
 
@@ -296,6 +316,8 @@ Unified Key Orchestrator provides the only cloud native single-point-of-control 
 
 **BYOK (Bring your own key):**
 IBM Key Protect for IBM Cloud is a shared multi-tenant key management service that supports the Bring Your Own Key (BYOK) capability. The service is built on FIPS 140-2 Level 3 certified HSMs, which are managed by IBM.
+
+Learn more here [Key Management](https://cloud.ibm.com/docs/hs-crypto?topic=hs-crypto-get-started)
 
 
 ### Deployment Architecture
