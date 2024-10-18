@@ -35,9 +35,9 @@ Trade finance represents financial products and services that facilitate domesti
 - Financial service providers
 - Government Entities dealing with tax collection, border security and regulatory aspects
 - International organizations such as
-    - WCO
-    - ICC
-    - UN
+    - World Customs Organization
+    - International Chamber of Commerce
+    - United Nations
 
 The diagram below captures the trade finance ecosystem participants
 
@@ -115,7 +115,7 @@ At IBM, we recognize that this transformation will require adopting a platform s
 
 As organizations look to modernize their trade finance journeys, we have leveraged the breadth of IBM’s technology and consulting capabilities to develop a Connected Trade Platform for the industry.
 
-As part of our approach, we are sourcing digitally native business-process capabilities from multiple fintechs, given that no two banks are likely going to going to have the same set of applications or processes.
+As part of our approach, we are sourcing digitally native business-process capabilities from multiple fintechs, given that no two banks are likely going to have the same set of applications or processes.
 
 Our platform strategy is designed to build secured infrastructure that is optimized for regulated business processes and help support clients in their compliance journeys. It is also abstracted at a common infrastructure control plane that aims to make it easy for banks to adopt and consume. With a plug-and-play integration framework for banking-specific backend systems, the platform can help enable the flow of financial transactions from the front office to the back office.
 
@@ -126,7 +126,7 @@ At IBM, we believe it’s critical that this industry-specific platform is optim
 - **From a fintech's perspective**, it can reduce the barrier to adoption, enable an expanded go-to-market reach, deliver flexible integration with a bank’s backend systems and allow for simplified operations management of their respective applications.
 
 
-![IBM Connected Trade Platform Functional View](images/CTPFunctionalArch.drawio.svg "IBM Connected Trade Platform Functional View"){: caption="IBM Connected Trade Platform Functional View" caption-side="bottom"}
+![IBM Connected Trade Platform Functional View](images/CTPFunctionalArch2.drawio.svg "IBM Connected Trade Platform Functional View"){: caption="IBM Connected Trade Platform Functional View" caption-side="bottom"}
 
 ### Logical Architecture
 {: #logical-architecture}
@@ -140,19 +140,19 @@ The Figure below depicts the logical architecture of the IBM connected trade pla
 {: #logical-architecture-conceptual-elements}
 
 
-##### IBM Hybrid Cloud
+##### [IBM Hybrid Cloud](https://cloud.ibm.com/)
 {: #logical-architecture-ibm-hybrid-cloud}
 
 
 The platform is built on top of IBM’s hybrid cloud. IBM cloud offers 246+ public cloud solutions as services or software. IBM cloud is designed keeping in mind the most regulated of industries and is differentiated in its performance, resiliency, security and TCO. IBM cloud is available in 10 multi zone regions (30 data centers) across the world (Americas, Europe, APAC) along with 29 single data centers.
 
-##### Network Layer
+##### [Network Layer](https://cloud.ibm.com/docs/vpc/getting-started.html)
 {: #logical-architecture-network-layer}
 
 
 The network utilizes the virtual private cloud design, which as the name suggests is a virtual network that is logically isolated from other IBM cloud tenants. VPC lets you create a fully customizable, software-defined virtual network with superior isolation. IBM Cloud Virtual Private Cloud provides custom network topologies, flexible subnet sizes, and enhanced security. Hybrid network connectivity with bank systems can be achieved using VPN and direct link connect and direct link dedicated offerings.
 
-##### Storage Layer
+##### [Storage Layer](https://cloud.ibm.com/docs/vpc?topic=vpc-storage-overview)
 {: #logical-architecture-storage-layer}
 
 
@@ -161,7 +161,7 @@ The storage layer provides multiple options to choose from.
 **File Storage:** 
 The IBM Cloud® File Storage for VPC service provides secure, persistent, NSFv4.1 protocol-based file storage. IBM Cloud® File Storage for VPC is backed by All-Flash architecture. You can create file shares with capacity that ranges from 10 GB to 32 TB with flexible options
 
-**Object Storage:**
+[**Object Storage:**](https://cloud.ibm.com/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage)
 IBM Cloud Object Storage is a highly scalable cloud storage service, designed for high durability, resiliency and security. Store, manage and access your data via our self-service portal and RESTful APIs. 
 
 **Block Storage:**
@@ -173,22 +173,22 @@ Get local disk performance with SAN persistence and durability. Increase storage
 
 Choose from a host of compute options
 
-**Baremetal:**
+[**Baremetal:**](https://cloud.ibm.com/docs/vpc?topic=vpc-about-bare-metal-servers)
 For highest level of isolation, security and control
 
-**Virtual Server Instances:**
+[**Virtual Server Instances:**](https://cloud.ibm.com/docs/vpc?topic=vpc-about-advanced-virtual-servers)
 When you provision an instance, you select a profile that matches the amount of memory and compute power that you need for the application that you plan to run on the instance. Instances are available on the x86 and s390x architectures. After you provision an instance, you control and manage those infrastructure resources
 
-**Power Virtual Servers:**
+[**Power Virtual Servers:**](https://cloud.ibm.com/power/overview)
 For high density workloads we offer Power virtual servers, which are based on the IBM Power processor technology that offers significant performance improvement over x86
 
-##### RedHat OpenShift
+##### [RedHat OpenShift](https://cloud.ibm.com/docs/openshift?topic=openshift-getting-started)
 {: #logical-architecture-RedHat-OpenShift}
 
 
 Red Hat OpenShift is the leading hybrid cloud application platform, bringing together a comprehensive set of tools and services that streamline the entire application lifecycle, from development to delivery to management of app workloads. IBM connected trade platform utilizes OpenShift for container orchestration and application delivery
 
-##### IBM Cloud Pak for Data
+##### [IBM Cloud Pak for Data](https://cloud.ibm.com/cloudpaks/data/overview)
 {: #logical-architecture-ibm-cloud-pak-data}
 
 
@@ -198,7 +198,7 @@ IBM Cloud Pak for Data is a pre-assembled data fabric architecture that can be s
 
 Cloud Pak for Data includes industry-leading data fabric technologies for data governance, data virtualization, and data science; all of which are designed to support self-service data exploration and consumption, which is the ultimate objective of a data fabric architecture
 
-##### Watsonx
+##### [Watsonx](https://cloud.ibm.com/watsonx/overview)
 {: #logical-architecture-watsonx}
 
 
@@ -213,7 +213,7 @@ Watsonx is an AI and data platform designed to scale and accelerate the impact o
 - **AI assistants** – Pre-built applications powered by watsonx. Clients can deploy watsonx AI assistants to do work without expert knowledge across a variety of business processes and applications, including automating customer service, document digitization and processing, generating code, and automating key workflows in departments such as human resources (HR).
 
 
-#### IBM Cloud Framework for Financial Services
+#### [IBM Cloud Framework for Financial Services](https://cloud.ibm.com/docs/framework-financial-services?topic=framework-financial-services-about)
 {: #logical-architecture-fscloud}
 
 
@@ -254,7 +254,7 @@ IBM connected trade gateway is built on top of IBM's industry leading automated,
 - High speed data transfer system for transferring files and data sets of any size quickly, reliably, and securely
 - An application gateway for adding security, control, integration, and optimized access to your workload
 
-#### Security and Compliance Center
+#### [Security and Compliance Center](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started)
 {: #logical-architecture-scc}
 
 
@@ -264,19 +264,19 @@ Cloud-Native Application Protection Platforms (CNAPP) drive the modernization of
 
 IBM connected trade platform leverages SCC for continuous compliance and ongoing monitoring of all its components
 
-#### Databases
+#### [Databases](https://cloud.ibm.com/catalog?category=databases)
 {: #logical-architecture-databases}
 
 
 The platform offers comprehensive list of DBaaS offerings across RDMS and NoSQL databases such as DB2, Postgres, enterprise DB, MySQL, MongoDB, Cloudant, Cassandra etc
 
-#### Observability
+#### [Observability](https://cloud.ibm.com/docs/observability-hub)
 {: #logical-architecture-observability}
 
 
 The platform offers extensive observability capabilities through its cloud activity tracker, cloud logs and cloud monitoring services in addition to IBM Instana Observability platform
 
-#### Key Management
+#### [Key Management](https://cloud.ibm.com/docs/hs-crypto?topic=hs-crypto-get-started)
 {: #logical-architecture-key-management}
 
 
@@ -312,7 +312,7 @@ Figure below represents a more detailed deployment architecture for the platform
 
 ![Deployment Architecture](images/CTPDeploymentArchitecture.drawio.svg "Deployment Architecture"){: caption="Deployment Architecture" caption-side="bottom"}
 
-This is a reference architecture that follows industry best practices and is pre validated for regulated industries such as financial services. The architecture can be tailored to fit Citi’s requirements.
+This is a reference architecture that follows industry best practices and is pre validated for regulated industries such as financial services. The architecture can be tailored to fit the customer's requirements.
 
 A VPC gives an enterprise the ability to define and control a virtual network that is logically isolated from all other public cloud tenants, creating a private, secure place on the public cloud.
 
@@ -340,7 +340,8 @@ Direct Link is the most secure way to enable connectivity from the application p
 
 An alternative connectivity pattern requires use of the VPN for VPC service to securely connect from your private network to the management VPC. VPN for VPC can be used as a static, route-based VPN or a policy-based VPN to set up an IPsec site-to-site tunnel between your VPC and your on-premises private network, or another VPC. When using VPN for VPC, you need to place the gateway in a subnet (shown in the lower left subnet in the diagram).
 
-**Bastion host: **
+**Bastion host:**
+
 Regardless of whether you are using Direct Link or VPN for VPC to connect to the management VPC, you need to ensure that all traffic is routed through a bastion host with session recording. The bastion host solution is depicted in the two rightmost lower subnets in the diagram.
 
 #### Connectivity between VPCs
