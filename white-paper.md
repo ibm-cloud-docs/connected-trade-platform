@@ -17,13 +17,13 @@ keywords: trade finance connected trade platform ibm cloud fintech
 {: #trade-platform-finance}
 {: #white-paper}
 
-This white paper introduces and provides an overview of the trade finance industry, its market potential, and current challenges. In addition, IBM proposes the outlined solution to address those challenges and how it can accelerate the modernization and digitization of the trade finance industry is discussed.
+This white paper introduces and provides an overview of the trade finance industry, its market potential, and current challenges. {{site.data.keyword.IBM_notm}} proposes solutions to address those challenges, which can accelerate the modernization and digitization of the trade finance industry.
 {: shortdesc}
 
 ## Understanding trade finance
 {: #trade-finance-overview}
 
-Trade finance represents financial products and services that facilitate domestic and international trade activities between buyers and sellers aiming to mitigate performance and payment risks while improving cash flows. This is a global industry with a diverse ecosystem of participants such as:
+Trade finance represents financial products and services that facilitate domestic and international trade activities between buyers and sellers aiming to mitigate performance and payment risks while improving cash flows. This is a global industry with a diverse ecosystem of participants, such as the following:
 
 - Buyers
 - Suppliers
@@ -39,7 +39,7 @@ The following diagram captures the trade finance ecosystem participants.
 
 ![Trade Finance Ecosystem Participants](images/EcosystemParticipants.drawio.svg "Trade Finance Ecosystem Participants"){: caption="Trade Finance Ecosystem Participants" caption-side="bottom"}
 
-A trade transaction requires a seller of goods and services and a buyer. Various intermediaries such as banks and other financial institutions can facilitate these transactions by financing the trade. There is a diverse set of products being offered to serve the needs of the counter-parties in the transaction in the form of letters of credit (LOC), guarantees, or insurance. However, due to the very fragmented and distributed nature of the trade ecosystem, technology adoption has been lagging in comparison to other industries.
+A trade transaction requires a seller of goods and services and a buyer. Various intermediaries such as banks and other financial institutions can facilitate these transactions by financing the trade. There are a diverse set of products that are offered to serve the needs of the counter-parties in the transaction in the form of letters of credit (LOC), guarantees, or insurance. However, due to the fragmented and distributed nature of the trade ecosystem, technology adoption is lagging in comparison to other industries.
 
 ## Trade finance market
 {: #trade-finance-market}
@@ -60,50 +60,50 @@ The global trade finance market size was evaluated at $10.52 trillion in 2023 an
 ## Trade finance challenges and opportunities
 {: #trade-finance-challenges-opportunities}
 
-Today, we are seeing significant digital disruption in the business of trade and supply chain financing that is largely influenced by global events and geopolitics, changing regulations, compliance and control requirements, advancements in technology and innovation, and access to capital.
+There is significant digital disruption in the business of trade and supply chain financing, which is influenced by global events and geopolitics, changing regulations, compliance and control requirements, advancements in technology and innovation, and access to capital.
 
-When examining these disruptors more closely, it’s clear there are a wide variety of factors that can impact global trade and supply chain financing. These can range all the way from elevated inflation, which has the potential to cause margin pressures, to geopolitics, which can impact globalization and force changes towards friend shoring and near shoring. At the same time, complex and fragmented supply chains can introduce challenges like supply chain compliance and fraud mitigation. Supplier visibility and traceability is growing in importance to help achieve environmental, social, and governance (ESG) targets.
+When examining these disruptors more closely, it’s clear there are a wide variety of factors that can impact global trade and supply chain financing. These can range from elevated inflation, which has the potential to cause margin pressures, to geopolitics, which can impact globalization and force changes toward friend shoring and near shoring. At the same time, complex and fragmented supply chains can introduce challenges like supply chain compliance and fraud mitigation. Supplier visibility and traceability are growing in importance to help achieve environmental, social, and governance (ESG) targets.
 
 Lets take a deeper look at some of the friction points:
 
 - Setup and documentation
-    - Unpredictable mix of manual and machine documents 
-    - Varying documents and formats 
+    - Unpredictable mix of manual and machine documents
+    - Varying documents and formats
     - Exception processing is labor-driven
 - Credit Analysis
     - Errors due to manual workflow data completeness and data inaccuracy
     - Bank foregoes funding credit-worthy suppliers because of manual workflow data completeness errors and data inaccuracy
 - Commercial and compliance checks
-    - Research and verification of documents is time-consuming 
-    - Forgery and fraud risks are difficult to eliminate 
+    - Research and verification of documents is time-consuming
+    - Forgery and fraud risks are difficult to eliminate
 - Transaction processing
-    - Inefficiency from re-keying data to gain multiple bank departmental approvals
+    - Inefficiency from rekeying data to gain multiple bank departmental approvals
 - Fulfillment
     - Manual processes and fragmented systems increase time, coordination, and cost in releasing funds
 - Post-fulfillment
-    - Lack of data to support regulatory reporting, tracking, discrepancy analysis 
+    - Lack of data to support regulatory reporting, tracking, discrepancy analysis
 
-These are just a few of the many key factors we see driving transformational change within trade and supply chain processes.
+These are just a few of the many key factors that we see driving transformational change within trade and supply chain processes.
 
 ### Transitioning from a fragmented to a data-driven supply chain
 {: #data-driven-supply-chain}
 
-In the past, it was common to see manual, paper-intensive trade processes that have the potential to generate large amounts of data. However, this data can often become trapped in silos and cause complexities, resulting in delays and increased costs. With the increasing demands of global trade, organizations are starting to embrace digitization, standardization, and collaboration to accelerate time to value and reduce costs.
+Paper-intensive trade processes of the past trap large amounts of data in silos, causing delays and increasing costs. With the increasing demands of global trade, organizations embrace digitization, standardizations, and collaboration to accelerate time to value and reduce costs.
 
 Technology is playing an important role in reprogramming the DNA of trade and supply chain financing. It can help connect disparate and disconnected manual processes and platforms to a data-driven and connected trade ecosystem. Siloed processes can become integrated by using intelligent workflows, which help enable seamless and automated exchange of financial, informational and physical supply chain data in one distributed network.
 
 With these capabilities, a single source of truth can then be established across all parties, helping to increase trust between trading parties. This approach can provide users with new and more efficient ways of conducting and financing global trade.
 
-## Proposed solution for IBM Connected Trade Platform
+## Proposing a solution for {{site.data.keyword.IBM_notm}} Connected Trade Platform
 {: #proposed-solution-ctp}
 
 Digitization, along with standardization and collaboration within the industry can help create a variety of benefits. For example, banks gain real-time visibility into their respective supply chains, eliminate paper-based processes and associated manual labor, improve speed to working capital optimization, enhance cash-flow forecasting accuracy, safeguard transactions against cybersecurity risk, enable greater supply chain resiliency, and unlock wider procure-to-pay benefits.
 
 At IBM, we recognize that this transformation requires adopting a platform strategy that lifts the supporting ecosystem, and we aim to deliver this using next-generation ‘as a Service’ business model. As organizations look to modernize their trade finance journeys, we use the breadth of IBM’s technology and consulting capabilities to develop a Connected Trade Platform for the industry. As part of our approach, we are sourcing digitally native business-process capabilities from multiple fintechs, given that no two banks are likely going to have the same set of applications or processes.
 
-Our platform strategy is designed to build secured infrastructure that is optimized for regulated business processes and help support clients in their compliance journeys. It is also abstracted at a common infrastructure control plane that aims to make it easy for banks to adopt and consume. With a plug-and-play integration framework for banking-specific backend systems, the platform can help enable the flow of financial transactions from the front office to the back office.
+The {{site.data.keyword.IBM_notm}} platform strategy is designed to build secured infrastructure that is optimized for regulated business processes and help support clients in their compliance journeys. It is also abstracted at a common infrastructure control plane that aims to make it easy for banks to adopt and consume. With a plug-and-play integration framework for banking-specific backend systems, the platform can help enable the flow of financial transactions from the front office to the back office.
 
-At IBM, we believe it’s critical that this industry-specific platform is optimized to enable growth and remove risk trade for all the participants in the ecosystem:
+It’s critical that this industry-specific platform is optimized to enable growth and remove trade risk for all the participants in the ecosystem:
 
 - From a bank’s perspective, this can mean reduced time to market, elimination of fragmented and manual processes, and conformity to an individual bank’s security and compliance standards.
 - From a buyer’s perspective, it can drive significant improvement in working capital, superior supplier performance and accelerated ESG initiatives.
@@ -118,15 +118,15 @@ The following figure and conceptual elements depict the logical architecture of 
 
 ![Logical Architecture](images/CTPLogicalArchitecture.drawio.svg "Logical Architecture"){: caption="Logical Architecture" caption-side="bottom"}
 
-### IBM hybrid cloud
+### {{site.data.keyword.IBM_notm}} hybrid cloud
 {: #logical-architecture-ibm-hybrid-cloud}
 
-The platform is built on {{site.data.keyword.IBM_notm}}’s hybrid cloud. {{site.data.keyword.cloud_notm}} offers 246+ public cloud solutions as services or software. {{site.data.keyword.cloud_notm}} is designed by considering the most regulated of industries and is differentiated in its performance, resiliency, security, and TCO. {{site.data.keyword.cloud_notm}} is available in 10 multizone regions, including 30 data centers, across the world along with 29 single data centers. For more information, see [{{site.data.keyword.IBM_notm}} Hybrid Cloud](https://cloud.ibm.com/){: external}.
+The platform is built on {{site.data.keyword.IBM_notm}}’s hybrid cloud. {{site.data.keyword.cloud_notm}} offers 246+ public cloud solutions as services or software. {{site.data.keyword.cloud_notm}} is designed by considering the most regulated industries and is differentiated in its performance, resiliency, security, and TCO. {{site.data.keyword.cloud_notm}} is available in 10 multizone regions, including 30 data centers, across the world along with 29 single data centers. For more information, see [{{site.data.keyword.IBM_notm}} Hybrid Cloud](https://cloud.ibm.com/){: external}.
 
 ### Network layer
 {: #logical-architecture-network-layer}
 
-The network utilizes the virtual private cloud design, which is a virtual network that is logically isolated from other {{site.data.keyword.cloud_notm}} tenants. VPC lets you create a fully customizable, software-defined virtual network with superior isolation. {{site.data.keyword.cloud_notm}} Virtual Private Cloud provides custom network topologies, flexible subnet sizes, and enhanced security. Hybrid network connectivity with bank systems can be achieved using VPN and direct link connect and direct link dedicated offerings. For more information, see [Getting started with VPC](/docs/vpc?topic=vpc-getting-started).
+The network utilizes the virtual private cloud design, which is a virtual network that is logically isolated from other {{site.data.keyword.cloud_notm}} tenants. VPC lets you create a fully customizable, software-defined virtual network with superior isolation. {{site.data.keyword.cloud_notm}} Virtual Private Cloud provides custom network topologies, flexible subnet sizes, and enhanced security. Hybrid network connectivity with bank systems can be achieved by using VPN and direct link connect and direct link dedicated offerings. For more information, see [Getting started with VPC](/docs/vpc?topic=vpc-getting-started).
 
 ### Storage layer
 {: #logical-architecture-storage-layer}
@@ -135,22 +135,22 @@ The storage layer provides multiple options to choose from.
 
 * File Storage: The {{site.data.keyword.cloud_notm}} File Storage for VPC service provides secure, persistent, NSFv4.1 protocol-based file storage. {{site.data.keyword.cloud_notm}} File Storage for VPC is backed by All-Flash architecture. You can create file shares with capacity that ranges from 10 GB to 32 TB with flexible options.
 
-* [IBM Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage): IBM Cloud Object Storage is a highly scalable cloud storage service, designed for high durability, resiliency, and security. Store, manage, and access your data by using the self-service portal and RESTful APIs. 
+* [IBM Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage): IBM Cloud Object Storage is a highly scalable cloud storage service, which is designed for high durability, resiliency, and security. Store, manage, and access your data by using the self-service portal and RESTful APIs.
 
-* Block Storage: Get local disk performance with SAN persistence and durability. Increase storage capacity available to your {{site.data.keyword.BluVirtServers}} with a maximum of 48k IOPS. Deploy flash-backed block storage volumes from 20GB to 16TB and customize it with a variety of capabilities. For more information, see [VPC storage services overview](/docs/vpc?topic=vpc-storage-overview).
+* Block Storage: Get local disk performance with SAN persistence and durability. Increase the storage capacity available to your {{site.data.keyword.BluVirtServers}} with a maximum of 48k IOPS. Deploy flash-backed block storage volumes from 20GB to 16TB and customize it with a variety of capabilities. For more information, see [VPC storage services overview](/docs/vpc?topic=vpc-storage-overview).
 
 ### Compute
 {: #logical-architecture-compute}
 
 There are a host of compute options to choose from:
 
-* [Baremetal:](/docs/vpc?topic=vpc-about-bare-metal-servers): This option is ideal for the highest level of isolation, security, and control.
+* [Baremetal](/docs/vpc?topic=vpc-about-bare-metal-servers): This option is ideal for the highest level of isolation, security, and control.
 
-* [Virtual Server Instances:](/docs/vpc?topic=vpc-about-advanced-virtual-servers): When you provision an instance, you select a profile that matches the amount of memory and compute power that you need for the application that you plan to run on the instance. Instances are available on the x86 and s390x architectures. After you provision an instance, you control and manage those infrastructure resources.
+* [Virtual Server Instances](/docs/vpc?topic=vpc-about-advanced-virtual-servers): When you provision an instance, you select a profile that matches the amount of memory and compute power that you need for the application that you plan to run on the instance. Instances are available on the x86 and s390x architectures. After you provision an instance, you control and manage those infrastructure resources.
 
-* [Power Virtual Servers:](https://cloud.ibm.com/power/overview){: external}: For high density workloads, we offer Power Virtual Servers, which are based on the {{site.data.keyword.IBM_notm}} Power processor technology that offers significant performance improvement over x86.
+* [Power Virtual Servers](https://cloud.ibm.com/power/overview){: external}: For high density workloads, we offer Power Virtual Servers, which are based on the {{site.data.keyword.IBM_notm}} Power processor technology that offers significant performance improvement over x86.
 
-### RedHat OpenShift
+### {{site.data.keyword.redhat_openshift_notm}}
 {: #logical-architecture-RedHat-OpenShift}
 
 Red Hat OpenShift is the leading hybrid cloud application platform, bringing together a comprehensive set of tools and services that streamline the entire application lifecycle, from development to delivery to management of app workloads. The IBM Connected Trade Platform utilizes Red Hat OpenShift for container orchestration and application delivery. For more information, see [Getting started with Red Hat OpenShift on IBM Cloud](/docs/openshift?topic=openshift-getting-started).
@@ -158,19 +158,19 @@ Red Hat OpenShift is the leading hybrid cloud application platform, bringing tog
 ### {{site.data.keyword.cloud_notm}} Pak For Data
 {: #logical-architecture-ibm-cloud-pak-data}
 
-Its a new kind of data and analytics platform with built-in governance. It simplifies and unifies how clients collect, organize, and analyze data to accelerate the value of data science and AI. This hybrid cloud data platform delivers a broad range of core data microservices, with the option to add more from a growing services catalog. The platform helps the client experience with greater flexibility, security, control, and the benefits of the cloud without having to move data. 
+Its a new kind of data and analytics platform with built-in governance. It simplifies and unifies how clients collect, organize, and analyze data to accelerate the value of data science and AI. This hybrid cloud data platform delivers a broad range of core data microservices, with the option to add more from a growing services catalog. The platform helps the client experience with greater flexibility, security, control, and the benefits of the cloud without having to move data.
 
-{{site.data.keyword.cloud_notm}} Pak for Data is a pre-assembled data fabric architecture that can be simply integrated into any enterprise’s existing data estate. 
+{{site.data.keyword.cloud_notm}} Pak for Data is a pre-assembled data fabric architecture that can be simply integrated into any enterprise’s existing data estate.
 
 Cloud Pak for Data includes industry-leading data fabric technologies for data governance, data virtualization, and data science; all of which are designed to support self-service data exploration and consumption, which is the ultimate objective of a data fabric architecture. For more information, see [IBM Cloud Pak for Data](https://cloud.ibm.com/cloudpaks/data/overview){: external}.
 
 ### {{site.data.keyword.IBM_notm}} watsonx
 {: #logical-architecture-watsonx}
 
-{{site.data.keyword.IBM_notm}} watsonx is an AI and data platform designed to scale and accelerate the impact of AI by infusing intelligence into business operations. The watsonx platform is designed with the three most important components of an effective AI strategy: an AI studio, data, and governance. 
+{{site.data.keyword.IBM_notm}} watsonx is an AI and data platform designed to scale and accelerate the impact of AI by infusing intelligence into business operations. The watsonx platform is designed with the three most important components of an effective AI strategy: an AI studio, data, and governance.
 
 - **watson.ai** is a next generation enterprise studio for AI builders to train, validate, tune, and deploy AI models.
-- **watsonx.data** is an open, hybrid, and governed data lakehouse optimized for all data and AI workloads. 
+- **watsonx.data** is an open, hybrid, and governed data lakehouse optimized for all data and AI workloads.
 - **watsonx.governance** allows clients to direct, manage, and monitor their organization’s AI activities, and employs software automation to strengthen a client’s ability to mitigate risk, manage regulatory requirements, and address ethical concerns.
 
 - **Software development kits (SDKs) and application programming interfaces (APIs)** – Programmatic interfaces that embed watsonx capabilities in watsonx AI assistants and applications.
@@ -197,7 +197,7 @@ For more information, see [IBM Cloud Framework for Financial Services](/docs/fra
 ### Independent Software Vendors
 {: #logical-architecture-isvs}
 
-IBM Connected Trade Platform supplements its trade finance functional capabilities by working with leading ISVs in the trade finance space. 
+IBM Connected Trade Platform supplements its trade finance functional capabilities by working with leading ISVs in the trade finance space.
 
 ISVs are onboarded onto the platform through a step by step onboarding process. This process includes:
 - Technical and security assessment of the ISV application
@@ -224,7 +224,7 @@ IBM connected trade gateway is built on top of IBM's industry leading automated,
 
 IBM Security and Compliance Center (SCC) is an integrated solutions suite to define policy as code, implement controls for secure data and workload deployments, and assess security and compliance posture across hybrid multicloud environments.
 
-Cloud-Native Application Protection Platforms (CNAPP) drive the modernization of security and compliance for regulated industry and AI workloads. IBM SCC, as a comprehensive CNAPP solution, helps you centrally manage your organization’s security, risk and compliance to regulatory standards, enable security and DevOps teams, secure sensitive data and protect workloads with real-time threat detection and vulnerability management. 
+Cloud-Native Application Protection Platforms (CNAPP) drive the modernization of security and compliance for regulated industry and AI workloads. IBM SCC, as a comprehensive CNAPP solution, helps you centrally manage your organization’s security, risk and compliance to regulatory standards, enable security and DevOps teams, secure sensitive data and protect workloads with real-time threat detection and vulnerability management.
 
 IBM Connected Trade Platform uses SCC for continuous compliance and ongoing monitoring of all its components. For more information, see [Security and Compliance Center](/docs/security-compliance?topic=security-compliance-getting-started).
 
@@ -267,7 +267,7 @@ Unified Key Orchestrator provides the only cloud native single-point-of-control 
 ## Deployment architecture
 {: #Deployment-architecture}
 
-The following figure depicts a high level reference deployment architecture. 
+The following figure depicts a high level reference deployment architecture.
 
 {{site.data.keyword.cloud_notm}} accounts can be used for isolation of all cloud resources, administration and billing. This deployment model is flexible and can be tailored to the customer's needs. For example, if the customer wants to consume this platform purely as SaaS then the underlying deployment complexity can be abstracted out and managed and maintained by IBM. On the other hand, if the customer wants more visibility and control over the deployment and corresponding billing and administration then we can provision the necessary resources within the customer's cloud account.
 
@@ -296,7 +296,7 @@ The lower subnets in the diagram relate to inbound connectivity, and we'll cover
 #### Connectivity inbound to VPC
 {: #Deployment-architecture-mvpc-inbound-connectivity}
 
-Connectivity from your application provider's enterprise environment to the management VPC is accomplished by using IBM Cloud Direct Link or IBM Cloud Virtual Private Network (VPN) for VPC. 
+Connectivity from your application provider's enterprise environment to the management VPC is accomplished by using IBM Cloud Direct Link or IBM Cloud Virtual Private Network (VPN) for VPC.
 
 Direct Link is the most secure way to enable connectivity from the application provider's on-premises environment to the management VPC. The speed and reliability of Direct Link extends your organization’s data center network and offers more consistent, higher-throughput connectivity, keeping traffic within the {{site.data.keyword.cloud_notm}} network. When using Direct Link, a private Application Load Balancer for VPC (ALB) is used to distribute traffic among multiple server instances within the same region of your VPC.
 
