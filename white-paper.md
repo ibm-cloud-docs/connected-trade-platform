@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2024-11-01"
+lastupdated: "2024-11-04"
 
 subcollection: connected-trade-platform
 
@@ -17,7 +17,7 @@ keywords: trade finance connected trade platform ibm cloud fintech
 {: #trade-platform-finance}
 {: #white-paper}
 
-This white paper introduces and provides an overview of the trade finance industry, its market potential, and current challenges. In addition, IBM's proposed solution to address those challenges and how the solution can accelerate the modernization and digitization of the trade finance industry is discussed.
+This white paper introduces and provides an overview of the trade finance industry, its market potential, and current challenges. In addition, IBM proposes the outlined solution to address those challenges and how it can accelerate the modernization and digitization of the trade finance industry is discussed.
 {: shortdesc}
 
 ## Understanding trade finance
@@ -114,44 +114,41 @@ At IBM, we believe it’s critical that this industry-specific platform is optim
 ## Logical architecture
 {: #logical-architecture}
 
-The following figure and conceptual elements depict the logical architecture of the IBM Connected Trade Platform.
+The following figure and conceptual elements depict the logical architecture of the {{site.data.keyword.IBM_notm}} Connected Trade Platform.
 
 ![Logical Architecture](images/CTPLogicalArchitecture.drawio.svg "Logical Architecture"){: caption="Logical Architecture" caption-side="bottom"}
 
 ### IBM hybrid cloud
 {: #logical-architecture-ibm-hybrid-cloud}
 
-The platform is built on IBM’s hybrid cloud. {{site.data.keyword.cloud_notm}} offers 246+ public cloud solutions as services or software. {{site.data.keyword.cloud_notm}} is designed keeping in mind the most regulated of industries and is differentiated in its performance, resiliency, security, and TCO. {{site.data.keyword.cloud_notm}} is available in 10 multizone regions, including 30 data centers, across the world along with 29 single data centers. For more information, see [IBM Hybrid Cloud](https://cloud.ibm.com/){: external}.
+The platform is built on {{site.data.keyword.IBM_notm}}’s hybrid cloud. {{site.data.keyword.cloud_notm}} offers 246+ public cloud solutions as services or software. {{site.data.keyword.cloud_notm}} is designed by considering the most regulated of industries and is differentiated in its performance, resiliency, security, and TCO. {{site.data.keyword.cloud_notm}} is available in 10 multizone regions, including 30 data centers, across the world along with 29 single data centers. For more information, see [{{site.data.keyword.IBM_notm}} Hybrid Cloud](https://cloud.ibm.com/){: external}.
 
 ### Network layer
 {: #logical-architecture-network-layer}
 
-The network utilizes the virtual private cloud design, which as the name suggests is a virtual network that is logically isolated from other {{site.data.keyword.cloud_notm}} tenants. VPC lets you create a fully customizable, software-defined virtual network with superior isolation. {{site.data.keyword.cloud_notm}} Virtual Private Cloud provides custom network topologies, flexible subnet sizes, and enhanced security. Hybrid network connectivity with bank systems can be achieved using VPN and direct link connect and direct link dedicated offerings. For more information, see [Getting started with VPC](/docs/vpc?topic=vpc-getting-started).
+The network utilizes the virtual private cloud design, which is a virtual network that is logically isolated from other {{site.data.keyword.cloud_notm}} tenants. VPC lets you create a fully customizable, software-defined virtual network with superior isolation. {{site.data.keyword.cloud_notm}} Virtual Private Cloud provides custom network topologies, flexible subnet sizes, and enhanced security. Hybrid network connectivity with bank systems can be achieved using VPN and direct link connect and direct link dedicated offerings. For more information, see [Getting started with VPC](/docs/vpc?topic=vpc-getting-started).
 
-### Storage Layer
+### Storage layer
 {: #logical-architecture-storage-layer}
 
 The storage layer provides multiple options to choose from.
 
-* **File Storage:** 
-The {{site.data.keyword.cloud_notm}} File Storage for VPC service provides secure, persistent, NSFv4.1 protocol-based file storage. {{site.data.keyword.cloud_notm}} File Storage for VPC is backed by All-Flash architecture. You can create file shares with capacity that ranges from 10 GB to 32 TB with flexible options.
+* File Storage: The {{site.data.keyword.cloud_notm}} File Storage for VPC service provides secure, persistent, NSFv4.1 protocol-based file storage. {{site.data.keyword.cloud_notm}} File Storage for VPC is backed by All-Flash architecture. You can create file shares with capacity that ranges from 10 GB to 32 TB with flexible options.
 
-* * [**Object Storage:**](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage)
-IBM Cloud Object Storage is a highly scalable cloud storage service, designed for high durability, resiliency, and security. Store, manage, and access your data by using the self-service portal and RESTful APIs. 
+* [IBM Cloud Object Storage](/docs/cloud-object-storage?topic=cloud-object-storage-getting-started-cloud-object-storage): IBM Cloud Object Storage is a highly scalable cloud storage service, designed for high durability, resiliency, and security. Store, manage, and access your data by using the self-service portal and RESTful APIs. 
 
-* **Block Storage:**
-Get local disk performance with SAN persistence and durability. Increase storage capacity available to your {{site.data.keyword.BluVirtServers}} with a maximum of 48k IOPS. Deploy flash-backed block storage volumes from 20GB to 16TB and customize it with a variety of capabilities. For more information, see [VPC storage services overview](/docs/vpc?topic=vpc-storage-overview).
+* Block Storage: Get local disk performance with SAN persistence and durability. Increase storage capacity available to your {{site.data.keyword.BluVirtServers}} with a maximum of 48k IOPS. Deploy flash-backed block storage volumes from 20GB to 16TB and customize it with a variety of capabilities. For more information, see [VPC storage services overview](/docs/vpc?topic=vpc-storage-overview).
 
 ### Compute
 {: #logical-architecture-compute}
 
 There are a host of compute options to choose from:
 
-* [**Baremetal:**](/docs/vpc?topic=vpc-about-bare-metal-servers): This option is ideal for the highest level of isolation, security, and control.
+* [Baremetal:](/docs/vpc?topic=vpc-about-bare-metal-servers): This option is ideal for the highest level of isolation, security, and control.
 
-* [**Virtual Server Instances:**](/docs/vpc?topic=vpc-about-advanced-virtual-servers): When you provision an instance, you select a profile that matches the amount of memory and compute power that you need for the application that you plan to run on the instance. Instances are available on the x86 and s390x architectures. After you provision an instance, you control and manage those infrastructure resources.
+* [Virtual Server Instances:](/docs/vpc?topic=vpc-about-advanced-virtual-servers): When you provision an instance, you select a profile that matches the amount of memory and compute power that you need for the application that you plan to run on the instance. Instances are available on the x86 and s390x architectures. After you provision an instance, you control and manage those infrastructure resources.
 
-* [**Power Virtual Servers:**](https://cloud.ibm.com/power/overview){: external}: For high density workloads, we offer Power virtual servers, which are based on the IBM Power processor technology that offers significant performance improvement over x86.
+* [Power Virtual Servers:](https://cloud.ibm.com/power/overview){: external}: For high density workloads, we offer Power Virtual Servers, which are based on the {{site.data.keyword.IBM_notm}} Power processor technology that offers significant performance improvement over x86.
 
 ### RedHat OpenShift
 {: #logical-architecture-RedHat-OpenShift}
@@ -165,35 +162,32 @@ Its a new kind of data and analytics platform with built-in governance. It simpl
 
 {{site.data.keyword.cloud_notm}} Pak for Data is a pre-assembled data fabric architecture that can be simply integrated into any enterprise’s existing data estate. 
 
-Cloud Pak for Data includes industry-leading data fabric technologies for data governance, data virtualization, and data science; all of which are designed to support self-service data exploration and consumption, which is the ultimate objective of a data fabric architecture
+Cloud Pak for Data includes industry-leading data fabric technologies for data governance, data virtualization, and data science; all of which are designed to support self-service data exploration and consumption, which is the ultimate objective of a data fabric architecture. For more information, see [IBM Cloud Pak for Data](https://cloud.ibm.com/cloudpaks/data/overview){: external}.
 
-Learn more here [IBM Cloud Pak for Data](https://cloud.ibm.com/cloudpaks/data/overview)
-
-### IBM watsonx
+### {{site.data.keyword.IBM_notm}} watsonx
 {: #logical-architecture-watsonx}
 
-IBM watsonx is an AI and data platform designed to scale and accelerate the impact of AI by infusing intelligence into business operations. The watsonx platform is designed with the three most important components of an effective AI strategy: an AI studio, data, and governance. 
+{{site.data.keyword.IBM_notm}} watsonx is an AI and data platform designed to scale and accelerate the impact of AI by infusing intelligence into business operations. The watsonx platform is designed with the three most important components of an effective AI strategy: an AI studio, data, and governance. 
 
 - **watson.ai** is a next generation enterprise studio for AI builders to train, validate, tune, and deploy AI models.
 - **watsonx.data** is an open, hybrid, and governed data lakehouse optimized for all data and AI workloads. 
-- **watsonx.governance** allows clients to direct, manage, and monitor their organization’s AI activities, and employs software automation to strengthen a client’s ability to mitigate risk, manage regulatory requirements, and address ethical concerns
+- **watsonx.governance** allows clients to direct, manage, and monitor their organization’s AI activities, and employs software automation to strengthen a client’s ability to mitigate risk, manage regulatory requirements, and address ethical concerns.
 
 - **Software development kits (SDKs) and application programming interfaces (APIs)** – Programmatic interfaces that embed watsonx capabilities in watsonx AI assistants and applications.
-
 - **AI assistants** – Pre-built applications powered by watsonx. Clients can deploy watsonx AI assistants to do work without expert knowledge across a variety of business processes and applications, including automating customer service, document digitization and processing, generating code, and automating key workflows in departments such as human resources (HR).
 
-Learn more here [Watsonx](https://cloud.ibm.com/watsonx/overview)
+For more information, see [Watsonx](https://cloud.ibm.com/watsonx/overview){: external}.
 
 ### {{site.data.keyword.cloud_notm}} Framework for Financial Services
 {: #logical-architecture-fscloud}
 
 
-IBM Connected trade platform is operated to the industry-informed {{site.data.keyword.cloud_notm}} Framework for Financial Services.  The Framework is a standard set of controls, architectures and deployment patterns informed by global regulatory requirements for cybersecurity, data security and risk management.  The Framework is also informed by an industry council and IBM Promontory to ensure currency with new and changed regulations. 
-The security controls are divided into 7 focus areas, which are then subdivided into 21 control families, eventually leading to 565 granular security controls. The control requirements were initially based on NIST 800-53 Rev 4 and have been enhanced based on feedback from leading industry partners.
+IBM Connected Trade Platform is operated to the industry informed {{site.data.keyword.cloud_notm}} Framework for Financial Services.  The framework is a standard set of controls, architectures and deployment patterns informed by global regulatory requirements for cybersecurity, data security, and risk management.  The framework is also informed by an industry council and IBM Promontory to ensure currency with new and changed regulations. The security controls are divided into 7 focus areas, which are then subdivided into 21 control families, eventually leading to 565 granular security controls. The control requirements were initially based on NIST 800-53 Rev 4 and have been enhanced based on feedback from leading industry partners.
 
-**Financial Services Validation:**
+#### Financial Services Validation
+{: #fsv-connected-trade}
 
-All key software, services and fintech apps are validated to the {{site.data.keyword.cloud_notm}} framework for financial services. What this means for the end client is that they can expect the IBM connected trade platform to provide
+All key software, services, and fintech apps are validated to the {{site.data.keyword.cloud_notm}} Framework for Financial Services. What this means for the end client is that they can expect the IBM Connected Trade Platform to provide the following:
 - Physically secure infrastructure
 - Regulatory compliant environment for their data and applications
 - Ongoing monitoring and reporting
@@ -203,87 +197,83 @@ For more information, see [IBM Cloud Framework for Financial Services](/docs/fra
 ### Independent Software Vendors
 {: #logical-architecture-isvs}
 
-
 IBM Connected Trade Platform supplements its trade finance functional capabilities by working with leading ISVs in the trade finance space. 
 
 ISVs are onboarded onto the platform through a step by step onboarding process. This process includes:
 - Technical and security assessment of the ISV application
-- Validation of the ISV application to {{site.data.keyword.cloud_notm}} framework for financial services or to a control set mandated by the client
+- Validation of the ISV application to {{site.data.keyword.cloud_notm}} Framework for Financial Services or to a control set mandated by the client
 - Remediation of identified gaps
 - Utilization of IBM Connected Trade Platform deployable architectures to quickly deploy ISV applications in a secure landing zone
 - Utilization of IBM Connected Trade Gateway to quickly setup integrations with different solution components and bank systems
 
 
-### Connected Trade Gateway
+### Connected trade gateway
 {: #logical-architecture-connected-trade-gateway}
 
-IBM's connected trade gateway can be used to quickly setup the integrations amongst the platform solution components, ISV apps and the bank's enterprise systems to connect different aspects of the E2E trade finance solution together.
+IBM's connected trade gateway can be used to quickly setup the integrations amongst the platform solution components, ISV apps, and the bank's enterprise systems to connect different aspects of the end to end trade finance solution together.
 
-IBM connected trade gateway is built on top of IBM's industry leading automated, secure and scalable integration capabilities. Its a hybrid integration platform that provides a comprehensive set of integration tools within a single, unified experience to connect applications and data across any cloud or on-premises environment. The high level functionality that you can expect from this trade gateway includes
-- A scalable API management platform for creating, socializing, managing, and monetizing APIs across clouds
-- An application integration platform that lets you author and host environments for creating, testing, sharing, and deploying workflows. You can use these environments to connect applications and data, assisted by AI, without having to write code
-- Enterprise grade messaging and event streaming through IBM MQ, Apache Kafka and Rabbit MQ
-- High speed data transfer system for transferring files and data sets of any size quickly, reliably, and securely
-- An application gateway for adding security, control, integration, and optimized access to your workload
+IBM connected trade gateway is built on top of IBM's industry leading automated, secure and scalable integration capabilities. It's a hybrid integration platform that provides a comprehensive set of integration tools within a single, unified experience to connect applications and data across any cloud or on-premises environment. The high level functionality that you can expect from this trade gateway includes:
+- A scalable API management platform for creating, socializing, managing, and monetizing APIs across clouds.
+- An application integration platform that lets you author and host environments for creating, testing, sharing, and deploying workflows. You can use these environments to connect applications and data, assisted by AI, without having to write code.
+- Enterprise grade messaging and event streaming through IBM MQ, Apache Kafka and Rabbit MQ.
+- High speed data transfer system for transferring files and data sets of any size quickly, reliably, and securely.
+- An application gateway for adding security, control, integration, and optimized access to your workload.
 
 ### Security and Compliance Center
 {: #logical-architecture-scc}
 
-
-IBM Security and Compliance Center (SCC) is an integrated solutions suite to define policy as code, implement controls for secure data and workload deployments, and assess security and compliance posture, across hybrid multicloud environments.
+IBM Security and Compliance Center (SCC) is an integrated solutions suite to define policy as code, implement controls for secure data and workload deployments, and assess security and compliance posture across hybrid multicloud environments.
 
 Cloud-Native Application Protection Platforms (CNAPP) drive the modernization of security and compliance for regulated industry and AI workloads. IBM SCC, as a comprehensive CNAPP solution, helps you centrally manage your organization’s security, risk and compliance to regulatory standards, enable security and DevOps teams, secure sensitive data and protect workloads with real-time threat detection and vulnerability management. 
 
-IBM connected trade platform leverages SCC for continuous compliance and ongoing monitoring of all its components
-
-Learn more here [Security and Compliance Center](https://cloud.ibm.com/docs/security-compliance?topic=security-compliance-getting-started)
+IBM Connected Trade Platform uses SCC for continuous compliance and ongoing monitoring of all its components. For more information, see [Security and Compliance Center](/docs/security-compliance?topic=security-compliance-getting-started).
 
 ### Databases
 {: #logical-architecture-databases}
 
-The platform offers comprehensive list of DBaaS offerings across RDMS and NoSQL databases such as DB2, Postgres, enterprise DB, MySQL, MongoDB, Cloudant, Cassandra etc
-
-Learn more here [Databases](https://cloud.ibm.com/catalog?category=databases)
+The platform offers comprehensive list of DBaaS offerings across RDMS and NoSQL databases such as DB2, Postgres, enterprise DB, MySQL, MongoDB, Cloudant, Cassandra and so on. For more information, see [Databases](https://cloud.ibm.com/catalog?category=databases){: external}.
 
 ### Observability
 {: #logical-architecture-observability}
 
-The platform offers extensive observability capabilities through its cloud activity tracker, cloud logs and cloud monitoring services in addition to IBM Instana Observability platform
-
-Learn more here [Observability](https://cloud.ibm.com/docs/observability-hub)
+The platform offers extensive observability capabilities through its cloud activity tracker, cloud logs and cloud monitoring services in addition to IBM Instana Observability platform. For more information, see [Observability services](/docs/observability-hub).
 
 ### Key Management
 {: #logical-architecture-key-management}
 
-**KYOK (Keep your own key):**
+#### Keep Your Own Key (KYOK)
+{: kyok-connected-trade}
 
-{{site.data.keyword.cloud_notm}} Hyper Protect Crypto Services is a dedicated key management service and cloud 
-service that provides the following features:
+{{site.data.keyword.cloud_notm}} Hyper Protect Crypto Services is a dedicated key management service and cloud service that provides the following features:
+
 - Keep Your Own Key (KYOK) with the FIPS 140-2 Level 4 certified HSM that ensures your full control of the entire key hierarchy where no {{site.data.keyword.cloud_notm}} administrators have access to your keys.
 - Single-tenant key management system to create, import, rotate, and manage keys with the standardized API.
 - Data-at-rest encryption with customer-owned keys with seamless integration with other {{site.data.keyword.cloud_notm}} data and storage services.
 - PKCS #11 library and Enterprise PKCS #11 (EP11) library for cryptographic operations, which is enabled by the Hyper Protect Crypto Services HSMs with the highest security level in the cloud.
 
-**Unified Key Orchestrator:**
+#### Unified Key Orchestrator
+{: unified-key-connected-trade}
+
 Unified Key Orchestrator provides the only cloud native single-point-of-control of encryption keys across hybrid multicloud environments of your enterprise.
+
 - Unified Key Orchestrator enables you with both Keep Your Own Key and Bring Your Own Key capabilities from across hybrid multicloud environments that include on-premises environments.
 - Unified Key Orchestrator manages and orchestrates all keys from the multicloud environments on {{site.data.keyword.cloud_notm}}.
 
-**BYOK (Bring your own key):**
-IBM Key Protect for {{site.data.keyword.cloud_notm}} is a shared multi-tenant key management service that supports the Bring Your Own Key (BYOK) capability. The service is built on FIPS 140-2 Level 3 certified HSMs, which are managed by IBM.
+#### Bring Your Own Key
+{: byok-connected-trade}
 
-Learn more here [Key Management](https://cloud.ibm.com/docs/hs-crypto?topic=hs-crypto-get-started)
+{{site.data.keyword.keymanagementservicefull_notm}} is a shared multi-tenant key management service that supports the Bring Your Own Key (BYOK) capability. The service is built on FIPS 140-2 Level 3 certified HSMs, which are managed by IBM. For more information, see [Getting started with IBM Cloud Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-get-started)
 
 ## Deployment architecture
 {: #Deployment-architecture}
 
 The following figure depicts a high level reference deployment architecture. 
 
-{{site.data.keyword.cloud_notm}} accounts can be leveraged for isolation of all cloud resources, administration and billing. This deployment model is flexible and can be tailored to the customer's needs. For example, if the customer wants to consume this platform purely as SaaS then the underlying deployment complexity can be abstracted out and managed and maintained by IBM. On the other hand, if the customer wants more visibility and control over the deployment and corresponding billing and administration then we can provision the necessary resources within the customer's cloud account.
+{{site.data.keyword.cloud_notm}} accounts can be used for isolation of all cloud resources, administration and billing. This deployment model is flexible and can be tailored to the customer's needs. For example, if the customer wants to consume this platform purely as SaaS then the underlying deployment complexity can be abstracted out and managed and maintained by IBM. On the other hand, if the customer wants more visibility and control over the deployment and corresponding billing and administration then we can provision the necessary resources within the customer's cloud account.
 
 ![High Level Deployment Architecture](images/CTPHighLevelDeploymentArchitecture.drawio.svg "High Level Deployment Architecture"){: caption="High Level Deployment Architecture" caption-side="bottom"}
 
-Figure below represents a more detailed deployment architecture for the platform. The diagram represents a single region with multiple availability zones view. The platform can be easily scaled to multiple regions
+The following figure represents a more detailed deployment architecture for the platform. The diagram represents a single region with multiple availability zones view. The platform can be easily scaled to multiple regions.
 
 ![Deployment Architecture](images/CTPDeploymentArchitecture.drawio.svg "Deployment Architecture"){: caption="Deployment Architecture" caption-side="bottom"}
 
@@ -360,7 +350,7 @@ By default, all objects that are stored in Object Storage are encrypted by using
 With {{site.data.keyword.cloud_notm}} Virtual Private Endpoint (VPE) for VPC you can connect to supported {{site.data.keyword.cloud_notm}} services from your VPC network by using the IP addresses of your choosing, which is allocated from a subnet within your VPC. In the reference architecture diagram, VPEs appear in the middle subnets of the workload VPC.
 VPE is an evolution of the private connectivity to {{site.data.keyword.cloud_notm}} services. VPEs are virtual IP interfaces that are bound to an endpoint gateway created on a per service, or service instance, basis (depending on the service operation model). The endpoint gateway is a virtualized function that scales horizontally, is redundant and highly available, and spans all availability zones of your VPC. Endpoint gateways enable communications from virtual server instances within your VPC and {{site.data.keyword.cloud_notm}} service on the private backbone. VPE for VPC gives you the experience of controlling all the private addressing within your cloud.
 
-#### Variation with edge/transit VPC for public internet access
+#### Variation with edge and transit VPC for public internet access
 {: #Deployment-architecture-edge-transit-vpc}
 
 You might want to allow consumers to access your service through the public internet. This base architecture can be adapted to securely enable this type of access via a new edge VPC. The request from the consumer gets routed through a global load balancer, through a web application firewall in the edge VPC, and then to the public application load balancer within the workload VPC.
