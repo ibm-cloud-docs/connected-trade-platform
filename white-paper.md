@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2024-11-04"
+lastupdated: "2024-11-05"
 
 subcollection: connected-trade-platform
 
@@ -30,7 +30,7 @@ Trade finance represents financial products and services that facilitate domesti
 - Logistics firms
 - Financial service providers
 - Government Entities dealing with tax collection, border security, and regulatory aspects
-- International organizations:
+- International organizations
     - World Customs Organization
     - International Chamber of Commerce
     - United Nations
@@ -121,7 +121,7 @@ The following figure and conceptual elements depict the logical architecture of 
 ### {{site.data.keyword.IBM_notm}} hybrid cloud
 {: #logical-architecture-ibm-hybrid-cloud}
 
-The platform is built on {{site.data.keyword.IBM_notm}}’s hybrid cloud. {{site.data.keyword.cloud_notm}} offers 246+ public cloud solutions as services or software. {{site.data.keyword.cloud_notm}} is designed by considering the most regulated industries and is differentiated in its performance, resiliency, security, and TCO. {{site.data.keyword.cloud_notm}} is available in 10 multizone regions, including 30 data centers, across the world along with 29 single data centers. For more information, see [{{site.data.keyword.IBM_notm}} Hybrid Cloud](https://cloud.ibm.com/){: external}.
+The platform is built on {{site.data.keyword.IBM_notm}}’s hybrid cloud. {{site.data.keyword.cloud_notm}} offers 246+ public cloud solutions as services or software. {{site.data.keyword.cloud_notm}} is designed by considering the most regulated industries and is differentiated in its performance, resiliency, security, and TCO. {{site.data.keyword.cloud_notm}} is available in 10 multizone regions, including 30 data centers, across the world along with 29 single data centers. Check out the [{{site.data.keyword.IBM_notm}} Hybrid Cloud platform](https://cloud.ibm.com/){: external}.
 
 ### Network layer
 {: #logical-architecture-network-layer}
@@ -158,7 +158,7 @@ Red Hat OpenShift is the leading hybrid cloud application platform, bringing tog
 ### {{site.data.keyword.cloud_notm}} Pak For Data
 {: #logical-architecture-ibm-cloud-pak-data}
 
-Its a new kind of data and analytics platform with built-in governance. It simplifies and unifies how clients collect, organize, and analyze data to accelerate the value of data science and AI. This hybrid cloud data platform delivers a broad range of core data microservices, with the option to add more from a growing services catalog. The platform helps the client experience with greater flexibility, security, control, and the benefits of the cloud without having to move data.
+{{site.data.keyword.cloud_notm}} Pak For Data is a new kind of data and analytics platform with built-in governance. It simplifies and unifies how clients collect, organize, and analyze data to accelerate the value of data science and AI. This hybrid cloud data platform delivers a broad range of core data microservices, with the option to add more from a growing services catalog. The platform helps the client experience with greater flexibility, security, control, and the benefits of the cloud without having to move data.
 
 {{site.data.keyword.cloud_notm}} Pak for Data is a pre-assembled data fabric architecture that can be simply integrated into any enterprise’s existing data estate.
 
@@ -182,7 +182,7 @@ For more information, see [Watsonx](https://cloud.ibm.com/watsonx/overview){: ex
 {: #logical-architecture-fscloud}
 
 
-IBM Connected Trade Platform is operated to the industry informed {{site.data.keyword.cloud_notm}} Framework for Financial Services.  The framework is a standard set of controls, architectures and deployment patterns informed by global regulatory requirements for cybersecurity, data security, and risk management.  The framework is also informed by an industry council and IBM Promontory to ensure currency with new and changed regulations. The security controls are divided into 7 focus areas, which are then subdivided into 21 control families, eventually leading to 565 granular security controls. The control requirements were initially based on NIST 800-53 Rev 4 and have been enhanced based on feedback from leading industry partners.
+IBM Connected Trade Platform is operated to the industry informed {{site.data.keyword.cloud_notm}} Framework for Financial Services.  The framework is a standard set of controls, architectures and deployment patterns informed by global regulatory requirements for cybersecurity, data security, and risk management. The framework is also informed by an industry council and IBM Promontory to ensure currency with new and changed regulations. The security controls are divided into 7 focus areas, which are then subdivided into 21 control families, eventually leading to 565 granular security controls. The control requirements were initially based on NIST 800-53 Rev 4 and have been enhanced based on feedback from leading industry partners.
 
 #### Financial Services Validation
 {: #fsv-connected-trade}
@@ -212,7 +212,7 @@ ISVs are onboarded onto the platform through a step by step onboarding process. 
 
 IBM's connected trade gateway can be used to quickly setup the integrations amongst the platform solution components, ISV apps, and the bank's enterprise systems to connect different aspects of the end to end trade finance solution together.
 
-IBM connected trade gateway is built on top of IBM's industry leading automated, secure and scalable integration capabilities. It's a hybrid integration platform that provides a comprehensive set of integration tools within a single, unified experience to connect applications and data across any cloud or on-premises environment. The high level functionality that you can expect from this trade gateway includes:
+IBM connected trade gateway is built on top of IBM's industry leading automated, secure and scalable integration capabilities. It's a hybrid integration platform that provides a comprehensive set of integration tools within a single, unified experience to connect applications and data across any cloud or on-premises environment. The high-level functionality that you can expect from this trade gateway includes:
 - A scalable API management platform for creating, socializing, managing, and monetizing APIs across clouds.
 - An application integration platform that lets you author and host environments for creating, testing, sharing, and deploying workflows. You can use these environments to connect applications and data, assisted by AI, without having to write code.
 - Enterprise grade messaging and event streaming through IBM MQ, Apache Kafka and Rabbit MQ.
@@ -231,18 +231,18 @@ IBM Connected Trade Platform uses SCC for continuous compliance and ongoing moni
 ### Databases
 {: #logical-architecture-databases}
 
-The platform offers comprehensive list of DBaaS offerings across RDMS and NoSQL databases such as DB2, Postgres, enterprise DB, MySQL, MongoDB, Cloudant, Cassandra and so on. For more information, see [Databases](https://cloud.ibm.com/catalog?category=databases){: external}.
+The platform offers a comprehensive list of DBaaS offerings across RDMS and NoSQL databases such as Db2, Postgres, enterprise DB, MySQL, MongoDB, Cloudant, Cassandra, and more. For more information, see [Databases](https://cloud.ibm.com/catalog?category=databases){: external}.
 
 ### Observability
 {: #logical-architecture-observability}
 
-The platform offers extensive observability capabilities through its cloud activity tracker, cloud logs and cloud monitoring services in addition to IBM Instana Observability platform. For more information, see [Observability services](/docs/observability-hub).
+The platform offers extensive observability capabilities through its cloud activity tracker, cloud logs and cloud monitoring services in addition the IBM Instana Observability platform. For more information, see [Observability services](/docs/observability-hub).
 
 ### Key Management
 {: #logical-architecture-key-management}
 
 #### Keep Your Own Key (KYOK)
-{: kyok-connected-trade}
+{: #kyok-connected-trade}
 
 {{site.data.keyword.cloud_notm}} Hyper Protect Crypto Services is a dedicated key management service and cloud service that provides the following features:
 
@@ -252,22 +252,22 @@ The platform offers extensive observability capabilities through its cloud activ
 - PKCS #11 library and Enterprise PKCS #11 (EP11) library for cryptographic operations, which is enabled by the Hyper Protect Crypto Services HSMs with the highest security level in the cloud.
 
 #### Unified Key Orchestrator
-{: unified-key-connected-trade}
+{: #unified-key-connected-trade}
 
-Unified Key Orchestrator provides the only cloud native single-point-of-control of encryption keys across hybrid multicloud environments of your enterprise.
+Unified Key Orchestrator provides the only cloud-native single-point-of-control of encryption keys across hybrid multicloud environments of your enterprise.
 
 - Unified Key Orchestrator enables you with both Keep Your Own Key and Bring Your Own Key capabilities from across hybrid multicloud environments that include on-premises environments.
 - Unified Key Orchestrator manages and orchestrates all keys from the multicloud environments on {{site.data.keyword.cloud_notm}}.
 
-#### Bring Your Own Key
-{: byok-connected-trade}
+#### Bring Your Own Key (BYOK)
+{: #byok-connected-trade}
 
-{{site.data.keyword.keymanagementservicefull_notm}} is a shared multi-tenant key management service that supports the Bring Your Own Key (BYOK) capability. The service is built on FIPS 140-2 Level 3 certified HSMs, which are managed by IBM. For more information, see [Getting started with IBM Cloud Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-get-started)
+{{site.data.keyword.keymanagementservicefull_notm}} is a shared multi-tenant key management service that supports the BYOK capability. The service is built on FIPS 140-2 Level 3 certified HSMs, which are managed by IBM. For more information, see [Getting started with IBM Cloud Hyper Protect Crypto Services](/docs/hs-crypto?topic=hs-crypto-get-started)
 
 ## Deployment architecture
 {: #Deployment-architecture}
 
-The following figure depicts a high level reference deployment architecture.
+The following figure depicts a high-level reference deployment architecture.
 
 {{site.data.keyword.cloud_notm}} accounts can be used for isolation of all cloud resources, administration and billing. This deployment model is flexible and can be tailored to the customer's needs. For example, if the customer wants to consume this platform purely as SaaS then the underlying deployment complexity can be abstracted out and managed and maintained by IBM. On the other hand, if the customer wants more visibility and control over the deployment and corresponding billing and administration then we can provision the necessary resources within the customer's cloud account.
 
@@ -277,7 +277,7 @@ The following figure represents a more detailed deployment architecture for the 
 
 ![Deployment Architecture](images/CTPDeploymentArchitecture.drawio.svg "Deployment Architecture"){: caption="Deployment Architecture" caption-side="bottom"}
 
-This is a reference architecture that follows industry best practices and is pre validated for regulated industries such as financial services. The architecture can be tailored to fit the customer's requirements.
+This is a reference architecture that follows industry best practices and is pre-validated for regulated industries such as financial services. The architecture can be tailored to fit the customer's requirements.
 
 A VPC gives an enterprise the ability to define and control a virtual network that is logically isolated from all other public cloud tenants, creating a private, secure place on the public cloud.
 
@@ -285,12 +285,14 @@ A VPC gives an enterprise the ability to define and control a virtual network th
 {: #Deployment-architecture-management-vpc}
 
 The management VPC provides compute, storage, and network services to enable application provider administrators to monitor, operate, and maintain the environment. The intent is to completely isolate management operations from the VPC running consumer workloads.
+
 The management VPC is distributed across three zones in one multizone region (MZR). Each zone contains two subnets that are protected by different ACLs.
 
 #### Subnets for management tools
 {: #Deployment-architecture-mvpc-subnets}
 
 The top subnet in each zone is part of the default security group for the VPC. And, each of those subnets contains an arbitrary number of virtual server instances and or RedHat OpenShift workers that use Block Storage for VPC. These instances are where your management tools run.
+
 The lower subnets in the diagram relate to inbound connectivity, and we'll cover more about that in the next sections.
 
 #### Connectivity inbound to VPC
@@ -302,9 +304,10 @@ Direct Link is the most secure way to enable connectivity from the application p
 
 An alternative connectivity pattern requires use of the VPN for VPC service to securely connect from your private network to the management VPC. VPN for VPC can be used as a static, route-based VPN or a policy-based VPN to set up an IPsec site-to-site tunnel between your VPC and your on-premises private network, or another VPC. When using VPN for VPC, you need to place the gateway in a subnet (shown in the lower left subnet in the diagram).
 
-**Bastion host:**
+##### Bastion host
+{: #bastion-host}
 
-Regardless of whether you are using Direct Link or VPN for VPC to connect to the management VPC, you need to ensure that all traffic is routed through a bastion host with session recording. The bastion host solution is depicted in the two rightmost lower subnets in the diagram.
+Regardless of whether you are using Direct Link or VPN for VPC to connect to the management VPC, you need to help ensure that all traffic is routed through a bastion host with session recording. The bastion host solution is depicted in the two rightmost lower subnets in the diagram.
 
 #### Connectivity between VPCs
 {: #Deployment-architecture-vpc-connectivity}
@@ -314,7 +317,7 @@ The management VPC needs to connect to the workload VPC to deploy, configure, an
 #### Workload VPC
 {: #Deployment-architecture-workload-vpc}
 
-The workload VPC provides compute, storage, and network services to support hosted applications and operations that deliver services to the consumer. Let's take a closer look at the components within the VPC.
+The workload VPC provides compute, storage, and network services to support hosted applications and operations that deliver services to the consumer. Take a closer look at the following components within the VPC.
 
 ##### Regions and zones
 {: #Deployment-architecture-wvpc-zones}
@@ -336,18 +339,21 @@ Block Storage for VPC is automatically created for the primary book volume when 
 By default, all boot and data volumes are encrypted at rest with IBM-managed encryption. There is no additional cost for this service. IBM-managed encryption uses the following industry standard protocols:
 - AES-256 encryption
 - Keys are managed in-house with Key Management Interoperability Protocol (KMIP)
-For all sensitive and consumer-owned data, the application provider should use customer-managed encryption. With this encryption method you can bring your own customer root key (CRK) to the cloud or have a key management service (KMS) generate a key for you. For {{site.data.keyword.cloud_notm}} for Financial Services, the supported key management service is Hyper Protect Crypto Services (HPCS). Root keys encrypt volume and custom image passphrases with envelope encryption, a process that encrypts a key with another key.
+
+For all sensitive and consumer-owned data, the application provider should use customer-managed encryption. With this encryption method, you can bring your own customer root key (CRK) to the cloud or have a key management service (KMS) generate a key for you. For {{site.data.keyword.cloud_notm}} for Financial Services, the supported key management service is Hyper Protect Crypto Services (HPCS). Root keys encrypt volume and custom image passphrases with envelope encryption, a process that encrypts a key with another key.
 
 #### Object Storage
 {: #Deployment-architecture-object-storage-vpc}
 
 Object Storage is an alternative storage option that is useful for certain use cases, including backup and recovery, data archiving, cloud-native application building, and AI and big data analytics. Object Storage stores encrypted and dispersed data across multiple geographic locations.
+
 By default, all objects that are stored in Object Storage are encrypted by using randomly generated keys and an all-or-nothing-transform (AONT). While this default encryption model provides at-rest security, financial service workloads need full control over the data encryption keys used. Again, Hyper Protect Crypto Services should be used for this purpose.
 
 #### Using {{site.data.keyword.cloud_notm}} services outside of a VPC
 {: #Deployment-architecture-external-service-access}
 
-With {{site.data.keyword.cloud_notm}} Virtual Private Endpoint (VPE) for VPC you can connect to supported {{site.data.keyword.cloud_notm}} services from your VPC network by using the IP addresses of your choosing, which is allocated from a subnet within your VPC. In the reference architecture diagram, VPEs appear in the middle subnets of the workload VPC.
+With {{site.data.keyword.cloud_notm}} Virtual Private Endpoint (VPE) for VPC, you can connect to supported {{site.data.keyword.cloud_notm}} services from your VPC network by using the IP addresses of your choosing, which is allocated from a subnet within your VPC. In the reference architecture diagram, VPEs appear in the middle subnets of the workload VPC.
+
 VPE is an evolution of the private connectivity to {{site.data.keyword.cloud_notm}} services. VPEs are virtual IP interfaces that are bound to an endpoint gateway created on a per service, or service instance, basis (depending on the service operation model). The endpoint gateway is a virtualized function that scales horizontally, is redundant and highly available, and spans all availability zones of your VPC. Endpoint gateways enable communications from virtual server instances within your VPC and {{site.data.keyword.cloud_notm}} service on the private backbone. VPE for VPC gives you the experience of controlling all the private addressing within your cloud.
 
 #### Variation with edge and transit VPC for public internet access
