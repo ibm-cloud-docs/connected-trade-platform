@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2024-11-05"
+lastupdated: "2024-11-08"
 
 subcollection: connected-trade-platform
 
@@ -44,7 +44,7 @@ A trade transaction requires a seller of goods and services and a buyer. Various
 ## Trade finance market
 {: #trade-finance-market}
 
-The global trade finance market size was evaluated at $10.52 trillion in 2023 and is slated to hit $13.66 trillion by the end of 2032 with a CAGR of nearly 2.94% between 2024 and 2032.
+The global trade finance market size was evaluated at $10.52 trillion in 2023 and is slated to hit $13.66 trillion by the end of 2032 with a Compound Annual Growth Rate (CAGR) of nearly 2.94% between 2024 and 2032.
 
 ![Trade Finance Market](images/TradeFinanceMarket.drawio.svg "Trade Finance Market"){: caption="Trade Finance Market" caption-side="bottom"}
 
@@ -70,7 +70,7 @@ Lets take a deeper look at some of the friction points:
     - Unpredictable mix of manual and machine documents
     - Varying documents and formats
     - Exception processing is labor-driven
-- Credit Analysis
+- Credit analysis
     - Errors due to manual workflow data completeness and data inaccuracy
     - Bank foregoes funding credit-worthy suppliers because of manual workflow data completeness errors and data inaccuracy
 - Commercial and compliance checks
@@ -83,7 +83,7 @@ Lets take a deeper look at some of the friction points:
 - Post-fulfillment
     - Lack of data to support regulatory reporting, tracking, discrepancy analysis
 
-These are just a few of the many key factors that we see driving transformational change within trade and supply chain processes.
+These are just a few of the many key factors that {{site.data.keyword.IBM_notm}} sees as driving transformational change within trade and supply chain processes.
 
 ### Transitioning from a fragmented to a data-driven supply chain
 {: #data-driven-supply-chain}
@@ -99,7 +99,7 @@ With these capabilities, a single source of truth can then be established across
 
 Digitization, along with standardization and collaboration within the industry can help create a variety of benefits. For example, banks gain real-time visibility into their respective supply chains, eliminate paper-based processes and associated manual labor, improve speed to working capital optimization, enhance cash-flow forecasting accuracy, safeguard transactions against cybersecurity risk, enable greater supply chain resiliency, and unlock wider procure-to-pay benefits.
 
-At IBM, we recognize that this transformation requires adopting a platform strategy that lifts the supporting ecosystem, and we aim to deliver this using next-generation ‘as a Service’ business model. As organizations look to modernize their trade finance journeys, we use the breadth of IBM’s technology and consulting capabilities to develop a Connected Trade Platform for the industry. As part of our approach, we are sourcing digitally native business-process capabilities from multiple fintechs, given that no two banks are likely going to have the same set of applications or processes.
+{{site.data.keyword.IBM_notm}} recognizes that this transformation requires adopting a platform strategy that lifts the supporting ecosystem, and {{site.data.keyword.IBM_notm}} aims to deliver this using next-generation ‘as a Service’ business model. As organizations look to modernize their trade finance journeys, {{site.data.keyword.IBM_notm}} uses the breadth of its technology and consulting capabilities to develop a Connected Trade Platform for the industry. As part of this approach, {{site.data.keyword.IBM_notm}} is sourcing digitally native business-process capabilities from multiple fintechs, given that no two banks are likely going to have the same set of applications or processes.
 
 The {{site.data.keyword.IBM_notm}} platform strategy is designed to build secured infrastructure that is optimized for regulated business processes and help support clients in their compliance journeys. It is also abstracted at a common infrastructure control plane that aims to make it easy for banks to adopt and consume. With a plug-and-play integration framework for banking-specific backend systems, the platform can help enable the flow of financial transactions from the front office to the back office.
 
@@ -118,10 +118,10 @@ The following figure and conceptual elements depict the logical architecture of 
 
 ![Logical Architecture](images/CTPLogicalArchitecture.drawio.svg "Logical Architecture"){: caption="Logical Architecture" caption-side="bottom"}
 
-### {{site.data.keyword.IBM_notm}} hybrid cloud
-{: #logical-architecture-ibm-hybrid-cloud}
+### {{site.data.keyword.cloud_notm}}
+{: #logical-architecture-ibm-cloud}
 
-The platform is built on {{site.data.keyword.IBM_notm}}’s hybrid cloud. {{site.data.keyword.cloud_notm}} offers 246+ public cloud solutions as services or software. {{site.data.keyword.cloud_notm}} is designed by considering the most regulated industries and is differentiated in its performance, resiliency, security, and TCO. {{site.data.keyword.cloud_notm}} is available in 10 multizone regions, including 30 data centers, across the world along with 29 single data centers. Check out the [{{site.data.keyword.IBM_notm}} Hybrid Cloud platform](https://cloud.ibm.com/){: external}.
+The platform is built on {{site.data.keyword.IBM_notm}}’s hybrid cloud. {{site.data.keyword.cloud_notm}} offers 246+ public cloud solutions as services or software. {{site.data.keyword.cloud_notm}} is designed by considering the most regulated industries and is differentiated in its performance, resiliency, security, and TCO. {{site.data.keyword.cloud_notm}} is available in 10 multizone regions, including 30 data centers, across the world along with 29 single data centers. Check out the [{{site.data.keyword.cloud_notm}} platform](https://cloud.ibm.com/){: external}.
 
 ### Network layer
 {: #logical-architecture-network-layer}
@@ -148,7 +148,7 @@ There are a host of compute options to choose from:
 
 * [Virtual Server Instances](/docs/vpc?topic=vpc-about-advanced-virtual-servers): When you provision an instance, you select a profile that matches the amount of memory and compute power that you need for the application that you plan to run on the instance. Instances are available on the x86 and s390x architectures. After you provision an instance, you control and manage those infrastructure resources.
 
-* [Power Virtual Servers](https://cloud.ibm.com/power/overview){: external}: For high density workloads, we offer Power Virtual Servers, which are based on the {{site.data.keyword.IBM_notm}} Power processor technology that offers significant performance improvement over x86.
+* [Power Virtual Servers](https://cloud.ibm.com/power/overview){: external}: For high density workloads, {{site.data.keyword.IBM_notm}} offers Power Virtual Servers, which are based on the {{site.data.keyword.IBM_notm}} Power processor technology that offers significant performance improvement over x86.
 
 ### {{site.data.keyword.redhat_openshift_notm}}
 {: #logical-architecture-RedHat-OpenShift}
@@ -269,7 +269,7 @@ Unified Key Orchestrator provides the only cloud-native single-point-of-control 
 
 The following figure depicts a high-level reference deployment architecture.
 
-{{site.data.keyword.cloud_notm}} accounts can be used for isolation of all cloud resources, administration and billing. This deployment model is flexible and can be tailored to the customer's needs. For example, if the customer wants to consume this platform purely as SaaS then the underlying deployment complexity can be abstracted out and managed and maintained by IBM. On the other hand, if the customer wants more visibility and control over the deployment and corresponding billing and administration then we can provision the necessary resources within the customer's cloud account.
+{{site.data.keyword.cloud_notm}} accounts can be used for isolation of all cloud resources, administration and billing. This deployment model is flexible and can be tailored to the customer's needs. For example, if the customer wants to consume this platform purely as SaaS then the underlying deployment complexity can be abstracted out and managed and maintained by IBM. On the other hand, if the customer wants more visibility and control over the deployment and corresponding billing and administration then {{site.data.keyword.IBM_notm}} can provision the necessary resources within the customer's cloud account.
 
 ![High Level Deployment Architecture](images/CTPHighLevelDeploymentArchitecture.drawio.svg "High Level Deployment Architecture"){: caption="High Level Deployment Architecture" caption-side="bottom"}
 
@@ -293,7 +293,7 @@ The management VPC is distributed across three zones in one multizone region (MZ
 
 The top subnet in each zone is part of the default security group for the VPC. And, each of those subnets contains an arbitrary number of virtual server instances and or RedHat OpenShift workers that use Block Storage for VPC. These instances are where your management tools run.
 
-The lower subnets in the diagram relate to inbound connectivity, and we'll cover more about that in the next sections.
+The lower subnets in the diagram relate to inbound connectivity, which will be covered in subsequent sections.
 
 #### Connectivity inbound to VPC
 {: #Deployment-architecture-mvpc-inbound-connectivity}
