@@ -13,11 +13,11 @@ keywords: trade finance connected trade platform ibm cloud fintech
 {{site.data.keyword.attribute-definition-list}}
 
 
-# IBM Connected Trade Platform to power the digitization of trade and supply chain financing
+# IBM Connected Trade Platform
 {: #trade-platform-finance}
 {: #white-paper}
 
-This white paper introduces and provides an overview of the trade finance industry, its market potential, and current challenges. {{site.data.keyword.IBM_notm}} proposes solutions to address those challenges, which can accelerate the modernization and digitization of the trade finance industry.
+The {{site.data.keyword.IBM}} Connected Trade Platform white paper introduces and provides an overview of the trade finance industry, its market potential, and current challenges. {{site.data.keyword.IBM_notm}} proposes solutions to address those challenges, which can accelerate the modernization and digitization of the trade finance industry.
 {: shortdesc}
 
 ## Understanding trade finance
