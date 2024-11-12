@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2024-11-11"
+lastupdated: "2024-11-12"
 
 subcollection: connected-trade-platform
 
@@ -44,7 +44,7 @@ A trade transaction requires a seller of goods and services and a buyer. Various
 ## Trade finance market
 {: #trade-finance-market}
 
-The global trade finance market size was evaluated at $10.52 trillion in 2023 and is slated to hit $13.66 trillion by the end of 2032 with a Compound Annual Growth Rate (CAGR) of nearly 2.94% between 2024 and 2032.
+The global trade finance market size was evaluated at $46.84 billion in 2023 and is slated to hit $62.64 billion by the end of 2028 with a Compound Annual Growth Rate (CAGR) of nearly 6.1%.
 
 ![Trade Finance Market](images/TradeFinanceMarket.drawio.svg "Trade Finance Market"){: caption="Trade Finance Market" caption-side="bottom"}
 
