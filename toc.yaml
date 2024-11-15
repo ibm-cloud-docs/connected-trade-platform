@@ -1,0 +1,31 @@
+---
+toc:
+  properties:
+    subcollection: connected-trade-platform
+    industry: FinancialSector
+    use-case: TradeFinance
+    compliance: IBMCloudFFS
+    audience: solution
+    category: solution_docs
+    content-type: white-paper
+    navigation: hidden
+    href: /docs/connected-trade-platform
+    path: connected-trade-platform
+    label: IBM Connected Trade Platform helps power the digitization of trade and
+      supply chain financing
+    description: The IBM Connected Trade Platform de-risks Trade Finance transformation by simplifying consumption of fintech applications
+    authors:
+      - name: Varun Ojha
+        title: STSM, Chief Architect, IBM Connected Trade Platform
+        url: https://www.linkedin.com/in/varun-ojha-17469222/
+      - name: Juanjo Ruiz
+        title: Principal Offering Manager, IBM Connected Trade Platform
+        url: https://www.linkedin.com/in/jruiz/
+      - name: Yanjka Regan
+        title: Product Manager, IBM Connected Trade Platform
+        url: https://www.linkedin.com/in/yanjkaregan/
+  entries:
+    - navgroup:
+        id: overview
+        topics:
+          - white-paper.md
