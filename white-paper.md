@@ -2,11 +2,11 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2024-11-12"
+lastupdated: "2025-06-18"
 
 subcollection: connected-trade-platform
 
-keywords: trade finance connected trade platform ibm cloud fintech
+keywords: trade finance, connected trade platform, ibm cloud, fintech
 
 ---
 
